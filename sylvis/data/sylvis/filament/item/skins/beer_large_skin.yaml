@@ -1,0 +1,21 @@
+id: 'sylvis:beer_large_skin'
+vanilla_item: 'minecraft:glass_bottle'
+group: 'sylvis:additions'
+translations:
+  en_us: Old Beer Skin
+  de_de: Altes Bier Skin
+item_tags: []
+item_resource:
+  models:
+    default: sylvis:items/beer_large
+properties:
+  stack_size: 1
+  lore:
+    - §7§oBlack out drunk, let's fucking go.
+    - §9Right-click on brewery beer or a potion to apply.
+  fire_resistant: false
+  copy_components: false
+components:
+    filament:skin:
+    - minecraft:potion
+    - brewery:drink_bottle

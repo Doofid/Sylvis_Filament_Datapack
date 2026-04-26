@@ -1,0 +1,32 @@
+id: 'sylvis:jester_boots'
+vanilla_item: 'minecraft:iron_boots'
+group: 'sylvis:additions'
+translations:
+  en_us: Jester Boots Skin
+  de_de: Narren Schuhe Skin
+item_tags: []
+item_resource:
+  parent: 'minecraft:item/generated'
+  textures:
+    default:
+      layer0: sylvis:item/jester_boots
+properties:
+  stack_size: 1
+  durability: 240
+  lore:
+    - §7§oI guess you are a jester now
+    - §9Right-click on any boots to apply.
+  fire_resistant: false
+  copy_components: false
+components:
+  filament:skin:
+    - minecraft:leather_boots
+    - minecraft:iron_boots
+    - minecraft:chainmail_boots
+    - minecraft:golden_boots
+    - minecraft:diamond_boots
+    - minecraft:netherite_boots
+
+  minecraft:equippable:
+    slot: feet
+    asset_id: sylvis:jester

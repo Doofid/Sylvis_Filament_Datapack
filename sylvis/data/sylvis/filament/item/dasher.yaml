@@ -1,0 +1,31 @@
+id: 'sylvis:dasher'
+vanilla_item: 'minecraft:coal'
+group: 'sylvis:additions'
+item_resource:
+  parent: 'minecraft:item/generated'
+  textures:
+    default:
+      layer0: sylvis:item/dasher
+translations:
+  en_us: Dasher
+  de_de: Dasher
+item_tags: []
+behaviour:
+  item_interact_execute:
+    consumes: false
+    commands:
+      # - 'execute as @p run velocity @s ^ ^ ^1.5'
+      - 'execute as @p if entity @s[nbt=!{FallFlying:1b}] run velocity @s ^ ^ ^1.5'
+      - 'execute as @p if entity @s[nbt={FallFlying:1b}] run velocity @s ^ ^ ^1'
+    damages: false
+properties:
+  stack_size: 1
+  fire_resistant: false
+  copy_components: false
+  lore:
+    - §7§oDash stylishly! Wind charge who?
+    - §9Right-click to dash.
+    - §93s Cooldown
+components:
+  'minecraft:use_cooldown':
+    seconds: 3

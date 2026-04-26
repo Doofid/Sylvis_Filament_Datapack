@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "BXC",
+    "XAX",
+    "CXB"
+  ],
+  "key": {
+    "A": "minecraft:netherite_ingot",
+    "X": "minecraft:obsidian",
+    "B": "minecraft:amethyst_shard",
+    "C": "minecraft:echo_shard"
+  },
+  "result": {
+    "id": "sylvis:dasher",
+    "count": 1
+  }
+}

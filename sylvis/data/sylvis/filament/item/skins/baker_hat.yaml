@@ -1,0 +1,29 @@
+id: 'sylvis:baker_hat_skin'
+vanilla_item: 'minecraft:carved_pumpkin'
+translations:
+  en_us: "Baker's Hat Skin"
+  de_de: Hut vom Typen der dir um 6Uhr morgens dein scheiß Brötchen macht Skin
+group: 'sylvis:additions'
+item_tags: []
+item_resource:
+  models:
+    default: sylvis:items/baker_hat
+properties:
+  stack_size: 1
+  lore:
+    - §7§oA wonderful pretty baker's hat
+    - §7§ofor making bread in the morning.
+    - §9Made as a thank you for Gem Co.
+    - §9for helping out financially in S1 of Sylvis.
+    - §9Right-click on helmet in inv to apply.
+  fire_resistant: false
+  copy_components: false
+  
+components:
+    filament:skin:
+    - minecraft:leather_helmet
+    - minecraft:iron_helmet
+    - minecraft:chainmail_helmet
+    - minecraft:golden_helmet
+    - minecraft:diamond_helmet
+    - minecraft:netherite_helmet

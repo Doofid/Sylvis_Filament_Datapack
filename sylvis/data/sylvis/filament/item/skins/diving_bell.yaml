@@ -1,0 +1,21 @@
+id: 'sylvis:diving_bell'
+vanilla_item: 'minecraft:glass'
+group: 'sylvis:additions'
+translations:
+  en_us: Diving Bell
+item_tags: []
+properties:
+  stack_size: 1
+  lore:
+    - §7§oKeeps air in your lungs. Very nice.
+    - §9Right-click on helmet to apply.
+  fire_resistant: false
+  copy_components: false
+components:
+    filament:skin:
+    - minecraft:leather_helmet
+    - minecraft:iron_helmet
+    - minecraft:golden_helmet
+    - minecraft:diamond_helmet
+    - minecraft:chainmail_helmet
+    - minecraft:netherite_helmet

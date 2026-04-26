@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:string",
+    "minecraft:carved_pumpkin"
+  ],
+  "result": {
+    "id": "sylvis:pumpkin_hat",
+    "count": 1
+  }
+}

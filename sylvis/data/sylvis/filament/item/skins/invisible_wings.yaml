@@ -1,0 +1,18 @@
+id: 'sylvis:invisible_wings'
+vanilla_item: 'minecraft:gold_nugget'
+group: 'sylvis:additions'
+translations:
+  en_us: Invisible Wings
+  de_de: Unsichtbare Flügel
+item_tags: []
+properties:
+  stack_size: 1
+  lore:
+    - §7§oIs it a bird? Is it a plane?
+    - §9Right-click on elytra to apply.
+  fire_resistant: false
+  copy_components: false
+components:
+    'minecraft:glider': {}
+    filament:skin:
+    - minecraft:elytra

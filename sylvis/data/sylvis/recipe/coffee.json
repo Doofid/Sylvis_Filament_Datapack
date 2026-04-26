@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ACD",
+    " B "
+  ],
+  "key": {
+    "A": [
+      "minecraft:sugar"
+    ],
+    "B": [
+      "minecraft:glass_bottle"
+    ],
+    "C": [
+      "minecraft:cocoa_beans"
+    ],
+    "D": [
+      "minecraft:milk_bucket"
+    ]
+  },
+  "result": {
+    "id": "sylvis:coffee",
+    "count": 1
+  },
+  "show_notification": true
+}

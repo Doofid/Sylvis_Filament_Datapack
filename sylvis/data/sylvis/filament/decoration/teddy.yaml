@@ -1,0 +1,34 @@
+id: 'sylvis:teddy'
+translations:
+  en_us: Teddy
+  de_de: Kuscheltier
+group: 'sylvis:additions'
+item_resource:
+  models:
+    default: sylvis:decorations/teddy
+blockModelType: transparent_block
+properties:
+  stack_size: 8
+  lore:
+    - §7§oA cute Teddy to decorate your home.
+    - §9Made as a thank you for Paroday
+    - §9for helping out financially in S1 of Sylvis.
+  placement:
+    wall: true
+    floor: true
+    ceiling: true
+  solid: false
+  scale: [2, 2, 2]
+  showBreakParticles: false
+  display: ground
+  
+size: [0.7, 0.9]
+
+# block: minecraft:flower_pot
+# blocks:
+#   - origin: [0.2, 0.0, 0.2]
+#     size: [0.6, 0.7, 0.6]
+  
+behaviour:
+  rotating:
+    smooth: true

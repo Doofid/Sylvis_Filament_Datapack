@@ -1,0 +1,31 @@
+id: 'sylvis:red_wine'
+translations:
+  en_us: Red wine
+  de_de: Rotwein
+vanilla_item: 'minecraft:glass_bottle'
+group: 'sylvis:additions'
+item_tags: []
+item_resource:
+  models:
+    default: sylvis:items/red_wine
+behaviour:
+  item_interact_execute:
+    consumes: true
+    commands: 
+      - tellraw @s "Hmmm what a lovely taste"
+      - effect give @s minecraft:blindness 2 1 false
+      - particle dust{color:[0.28,0.62,0.0],scale:2} ^ ^1.5 ^ 0.2 0.2 0.2 0.0001 25 force
+      - damage @s 5 minecraft:bad_respawn_point by @s
+      - effect give @s minecraft:nausea 60 2 false
+      - effect give @s minecraft:saturation 350 2 false
+      - effect give @s minecraft:weakness 60 2 false
+      - effect give @s minecraft:mining_fatigue 60 2 false
+      - effect give @s minecraft:slowness 30 1 false
+
+properties:
+  stack_size: 1
+  lore:
+    - §7§oA lovely red wine, but don't worry you won't remember your bad decicions you made when drunk
+    - §9Drinking is always a solution, believe me
+  fire_resistant: true
+  copy_components: false

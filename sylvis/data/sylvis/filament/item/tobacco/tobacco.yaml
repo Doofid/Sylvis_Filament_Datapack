@@ -1,0 +1,21 @@
+id: 'sylvis:tobacco'
+translations:
+  en_us: Tobacco
+  de_de: Tabak
+vanilla_item: 'minecraft:bone_meal'
+group: 'sylvis:additions'
+item_tags: []
+item_resource:
+  parent: 'minecraft:item/generated'
+  textures:
+    default:
+      layer0: sylvis:item/tobacco
+properties:
+  stack_size: 64
+  lore:
+    - §7§oAlmost perfect, but we can still improve
+    - §7§othere should be a way to get even closer
+    - §7§oto the cancer.
+    - §9Maybe try to dry it.
+  fire_resistant: false
+  copy_components: false

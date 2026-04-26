@@ -1,0 +1,21 @@
+id: 'sylvis:pumpkin_hat'
+vanilla_item: 'minecraft:carved_pumpkin'
+group: 'sylvis:additions'
+translations:
+  en_us: Pumpkin Hat
+item_tags: []
+properties:
+  stack_size: 1
+  lore:
+    - §7§oLook scary with this bad boy.
+    - §9Right-click on helmet to apply.
+  fire_resistant: false
+  copy_components: false
+components:
+    filament:skin:
+    - minecraft:leather_helmet
+    - minecraft:iron_helmet
+    - minecraft:golden_helmet
+    - minecraft:diamond_helmet
+    - minecraft:chainmail_helmet
+    - minecraft:netherite_helmet

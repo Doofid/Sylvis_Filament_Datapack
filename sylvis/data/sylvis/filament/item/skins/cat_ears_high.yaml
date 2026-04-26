@@ -1,0 +1,25 @@
+id: 'sylvis:cat_ears_high'
+vanilla_item: 'minecraft:carved_pumpkin'
+group: 'sylvis:additions'
+translations:
+  en_us: Cat Ears Skin
+  de_de: Katzenohren Skin
+item_tags: []
+item_resource:
+  models:
+    default: sylvis:items/cat_ears_high
+properties:
+  stack_size: 1
+  lore:
+    - §7§oI guess you are the cutes now
+    - §9Right-click on any helmet to apply.
+  fire_resistant: false
+  copy_components: false
+components:
+    filament:skin:
+    - minecraft:leather_helmet
+    - minecraft:iron_helmet
+    - minecraft:golden_helmet
+    - minecraft:diamond_helmet
+    - minecraft:chainmail_helmet
+    - minecraft:netherite_helmet

@@ -1,0 +1,50 @@
+id: 'sylvis:topaz_claymore'
+vanilla_item: 'minecraft:netherite_sword'
+group: 'sylvis:additions'
+translations:
+  en_us: Topaz Claymore
+  de_de: Topaz Zweihänder
+item_tags:
+  - 'minecraft:enchantable/sharp_weapon'
+  - 'minecraft:enchantable/trident'
+  - 'minecraft:enchantable/weapon'
+  - 'minecraft:enchantable/durability'
+item_resource:
+  models:
+    default: sylvis:items/better_topaz_claymore
+    throwing: sylvis:items/better_topaz_claymore
+behaviour:
+  trident: {}
+properties:
+  durability: 2031
+  stack_size: 1
+  fire_resistant: true
+  copy_components: true
+  lore:
+    - §7§oOne BIG sword.
+    - §7§oThrow it at your enemies!
+    - §9Useable like a trident.
+components:
+  'minecraft:attribute_modifiers':
+    - type: 'minecraft:attack_speed'
+      id: 'sylvis:topaz_claymmore_id'
+      amount: -3.5
+      operation: add_value
+      slot: mainhand
+    - type: 'minecraft:attack_damage'
+      id: 'sylvis:topaz_claymmore_id'
+      amount: 10
+      operation: add_value
+      slot: mainhand
+    - type: 'minecraft:entity_interaction_range'
+      id: 'sylvis:topaz_claymmore_id'
+      amount: 3
+      operation: add_value
+      slot: mainhand
+      display:
+        type: default
+  'minecraft:weapon':
+    item_damage_per_attack: 1
+    disable_blocking_for_seconds: 5
+  'minecraft:enchantable':
+    value: 10

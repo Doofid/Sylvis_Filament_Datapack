@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "A A",
+    "B B",
+    "C C"
+  ],
+  "key": {
+    "A": [
+      "minecraft:white_wool"
+    ],
+    "B": [
+      "minecraft:pink_wool"
+    ],
+    "C": [
+      "minecraft:stick"
+    ]
+  },
+  "result": {
+    "id": "sylvis:cat_ears_high",
+    "count": 1
+  },
+  "show_notification": true
+}

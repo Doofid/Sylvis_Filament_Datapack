@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "A A",
+    "ADA"
+  ],
+  "key": {
+    "A": "minecraft:gold_ingot",
+    "D": "minecraft:golden_helmet"
+  },
+  "result": {
+    "id": "sylvis:goose_crown",
+    "count": 1
+  }
+}

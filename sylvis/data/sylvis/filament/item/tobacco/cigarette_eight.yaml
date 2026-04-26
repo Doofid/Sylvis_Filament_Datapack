@@ -1,0 +1,17 @@
+id: 'sylvis:cigarette_eight'
+translations:
+  en_us: 8 Cigarettes
+  de_de: 8 Zigaretten
+vanilla_item: 'minecraft:bone'
+group: 'sylvis:additions'
+item_tags: []
+item_resource:
+  models:
+    default: sylvis:items/cigarettes
+properties:
+  stack_size: 2
+  lore:
+    - §7§oDamn do u really need that many cigarettes?
+    - §9Maybe try to craft something with it.
+  fire_resistant: false
+  copy_components: false

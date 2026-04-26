@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "###",
+    "PW "
+  ],
+  "key": {
+    "#": "minecraft:light_blue_wool",
+    "P": "minecraft:pink_dye",
+    "W": "minecraft:white_wool"
+  },
+  "result": {
+    "id": "sylvis:blue_shark",
+    "count": 1
+  }
+}

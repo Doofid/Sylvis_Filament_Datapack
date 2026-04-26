@@ -1,0 +1,6 @@
+{
+	"parent": "sylvis:block/blue_shark",
+	"textures": {
+		"0": "sylvis:block/gray_shark"
+	}
+}

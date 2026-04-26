@@ -1,0 +1,24 @@
+id: 'sylvis:cigarette_pack'
+translations:
+  en_us: Cigarette Pack
+vanilla_item: 'minecraft:gold_nugget'
+group: 'sylvis:additions'
+item_tags: []
+item_resource:
+  models:
+    default: sylvis:items/cigarette_pack
+behaviour:
+  item_interact_execute:
+    consumes: false
+    commands:
+      - 'execute as @p run give @s sylvis:cigarette'
+    damages: true
+properties:
+  durability: 16
+  stack_size: 1
+  lore:
+    - §7§oLonger break? I gotchu.
+    - §9Right-click to get a cigarette..
+  fire_resistant: false
+  copy_components: false
+components: {}

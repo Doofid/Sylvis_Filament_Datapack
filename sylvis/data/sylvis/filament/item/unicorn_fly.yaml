@@ -1,0 +1,28 @@
+id: 'sylvis:unicorn_fly'
+translations:
+  en_us: UNICORN HORN
+  de_de: Einhorn Horn (Kleinreiben und Schniefen?!)
+item_tags:
+  - 'minecraft:enchantable/durability'
+vanilla_item: 'minecraft:end_rod'
+group: 'sylvis:additions'
+properties:
+    durability: 500
+    stack_size: 1
+    lore:
+    - §7§o- I believe I can fly
+    - §9Try putting it on your head
+    fire_resistant: true
+    copy_components: false
+components:
+    'minecraft:glider': {}
+    'minecraft:equippable':
+        slot: head
+        allowed_entities: 'minecraft:player'
+        dispensable: true
+        swappable: true
+        damage_on_hurt: false
+        equip_on_interact: false
+        can_be_sheared: false
+    'minecraft:enchantable':
+        value: 1

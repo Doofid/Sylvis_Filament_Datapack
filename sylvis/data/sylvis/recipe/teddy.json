@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "group": "sylvis:additions",
+  "category": "misc",
+  "pattern": [
+    "A A",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": [
+      "minecraft:yellow_wool"
+    ],
+    "B": [
+      "minecraft:red_wool"
+    ]
+  },
+  "result": {
+    "id": "sylvis:teddy",
+    "count": 1
+  }
+}

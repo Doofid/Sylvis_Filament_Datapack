@@ -1,0 +1,25 @@
+id: 'sylvis:coffee'
+translations:
+  en_us: Black coffee
+  de_de: Der erste Kaffe am Morgen
+vanilla_item: 'minecraft:glass_bottle'
+group: 'sylvis:additions'
+item_tags: []
+item_resource:
+  models:
+    default: sylvis:items/coffee
+behaviour:
+  item_interact_execute:
+    consumes: true
+    commands: 
+      - tellraw @s "Now the day can start"
+      - effect give @s minecraft:saturation 50 2 false
+      - effect give @s minecraft:speed 10 1 false
+
+properties:
+  stack_size: 6
+  lore:
+    - §7§oA black coffee that doesn't taste well but you still need it to function properly
+    - §9Don't start drinking it, you wont be able to stop
+  fire_resistant: true
+  copy_components: false

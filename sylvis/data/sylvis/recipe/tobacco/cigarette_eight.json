@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "sylvis:additions",
+  "category": "misc",
+  "ingredients": [
+    "sylvis:cigarette",
+    "sylvis:cigarette",
+    "sylvis:cigarette",
+    "sylvis:cigarette",
+    "sylvis:cigarette",
+    "sylvis:cigarette",
+    "sylvis:cigarette",
+    "sylvis:cigarette"
+  ],
+  "result": {
+    "id": "sylvis:cigarette_eight",
+    "count": 1
+  }
+}

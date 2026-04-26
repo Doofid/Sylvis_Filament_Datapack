@@ -1,0 +1,49 @@
+id: 'sylvis:jester_chestplate'
+vanilla_item: 'minecraft:iron_chestplate'
+group: 'sylvis:additions'
+translations:
+  en_us: Jester Chestplate Skin
+  de_de: Narren Brustpanzer Skin
+item_tags: []
+item_resource:
+  parent: 'minecraft:item/generated'
+  textures:
+    default:
+      layer0: sylvis:item/jester_chestplate
+properties:
+  stack_size: 1
+  durability: 240
+  lore:
+    - §7§oI guess you are a jester now
+    - §9Right-click on any chestplate to apply.
+  fire_resistant: false
+  copy_components: false
+components:
+  filament:skin:
+    - minecraft:leather_chestplate
+    - minecraft:iron_chestplate
+    - minecraft:chainmail_chestplate
+    - minecraft:golden_chestplate
+    - minecraft:diamond_chestplate
+    - minecraft:netherite_chestplate
+
+  minecraft:equippable:
+    slot: chest
+    asset_id: sylvis:jester
+    # equip_sound: minecraft:item.armor.equip_iron
+  # minecraft:attribute_modifiers:
+  #   modifiers:
+  #   - type: minecraft:armor
+  #     id: sylvis:chestplate_armor
+  #     amount: 8
+  #     operation: add_value
+  #     slot: chest
+  #   - type: minecraft:armor_toughness
+  #     id: sylvis:chestplate_toughness
+  #     amount: 0
+  #     operation: add_value
+  #     slot: chest
+  # minecraft:enchantable:
+  #   value: 9
+  # minecraft:repairable:
+  #   items: "#minecraft:repairs_iron_armor"

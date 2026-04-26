@@ -1,0 +1,29 @@
+id: 'sylvis:bi_shark'
+translations:
+  en_us: Bi Shark
+  de_de: "Der geliebte Hai aus dem Ikea: Bi Shark"
+group: 'sylvis:blahajs'
+item_resource:
+  models:
+    default: sylvis:decorations/blahaj/bi_shark
+blockModelType: transparent_block
+properties:
+  stack_size: 1
+  lore:
+    - §7§oA cute Teddy to decorate your home.
+    - §9Made because why not
+    - §9(DVD and Demi really wanted it)
+  placement:
+    wall: true
+    floor: true
+    ceiling: true
+  solid: false
+  scale: [2, 2, 2]
+  showBreakParticles: True
+  display: ground
+blocks:
+  - origin: [0.0, 0.0, 0.0]
+    size: [1.0, 1.0, 1.0]
+behaviour:
+  rotating:
+    smooth: true

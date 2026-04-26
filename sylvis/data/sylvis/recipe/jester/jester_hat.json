@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "group": "sylvis:additions",
+  "category": "misc",
+  "pattern": [
+    "A B",
+    " C "
+  ],
+  "key": {
+    "A": [
+      "minecraft:blue_wool"
+    ],
+    "B": [
+      "minecraft:black_wool"
+    ],
+    "C": [
+      "sylvis:jester_helmet"
+    ]
+  },
+  "result": {
+    "id": "sylvis:jester_hat",
+    "count": 1
+  }
+}

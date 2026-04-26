@@ -1,0 +1,82 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "sylvis:item/cigarette_pack",
+		"particle": "sylvis:item/cigarette_pack"
+	},
+	"elements": [
+		{
+			"from": [3.8, 4, 8],
+			"to": [12.1, 6.3, 10.6],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [0, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 6, 8, 8], "texture": "#0"},
+				"east": {"uv": [8, 0, 11, 2], "texture": "#0"},
+				"south": {"uv": [0, 8, 8, 10], "texture": "#0"},
+				"west": {"uv": [8, 2, 11, 4], "texture": "#0"},
+				"up": {"uv": [8, 3, 0, 0], "texture": "#0"},
+				"down": {"uv": [8, 3, 0, 6], "texture": "#0"}
+			}
+		},
+		{
+			"from": [4, 0, 6],
+			"to": [12, 8, 8],
+			"faces": {
+				"north": {"uv": [8, 12, 12, 16], "texture": "#0"},
+				"east": {"uv": [15, 4, 16, 8], "texture": "#0"},
+				"south": {"uv": [12, 12, 16, 16], "texture": "#0"},
+				"west": {"uv": [15, 8, 16, 12], "texture": "#0"},
+				"up": {"uv": [15, 11, 11, 10], "texture": "#0"},
+				"down": {"uv": [15, 11, 11, 12], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [13.26, -15.35, -0.39],
+			"translation": [-0.25, 1.75, 2.5],
+			"scale": [0.32617, 0.32617, 0.32617]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [13.26, -15.35, -0.39],
+			"translation": [-0.25, 1.75, 2.5],
+			"scale": [0.32617, 0.32617, 0.32617]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -31.75, 0],
+			"translation": [-0.25, 4.5, 0.25],
+			"scale": [0.68555, 0.68555, 0.68555]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -31.75, 0],
+			"translation": [-0.25, 4.5, 0.25],
+			"scale": [0.68555, 0.68555, 0.68555]
+		},
+		"ground": {
+			"translation": [0, 4.5, 0],
+			"scale": [0.71094, 0.71094, 0.71094]
+		},
+		"gui": {
+			"rotation": [0, -29, -18.5],
+			"translation": [0, 3, 0]
+		},
+		"head": {
+			"rotation": [81.25, 0, 0],
+			"translation": [0, -4.75, -5],
+			"scale": [0.68555, 0.68555, 0.68555]
+		},
+		"fixed": {
+			"rotation": [172.75, 0, 180],
+			"translation": [0, 2.5, -1.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "group",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

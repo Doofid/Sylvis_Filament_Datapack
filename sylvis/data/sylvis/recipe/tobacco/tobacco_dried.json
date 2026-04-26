@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "group": "sylvis:additions",
+  "category": "misc",
+  "ingredient": "sylvis:tobacco",
+  "result": {
+    "id": "sylvis:tobacco_dried"
+  },
+  "experience": 1,
+  "cookingtime": 1200
+}

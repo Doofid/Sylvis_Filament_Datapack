@@ -1,0 +1,25 @@
+id: 'sylvis:goose_crown'
+vanilla_item: 'minecraft:gold_nugget'
+group: 'sylvis:additions'
+translations:
+  en_us: Crown
+  de_de: Krone
+item_tags: []
+item_resource:
+  models:
+    default: sylvis:items/crown
+properties:
+  stack_size: 1
+  lore:
+    - §7§oA helmet skin for the one and only king.
+    - §9Right-click on helmet to apply.
+  fire_resistant: false
+  copy_components: false
+components:
+    filament:skin:
+    - minecraft:leather_helmet
+    - minecraft:iron_helmet
+    - minecraft:golden_helmet
+    - minecraft:diamond_helmet
+    - minecraft:chainmail_helmet
+    - minecraft:netherite_helmet

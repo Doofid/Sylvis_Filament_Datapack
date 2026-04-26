@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "group": "sylvis:additions",
+  "category": "misc",
+  "pattern": [
+    "ABA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": [
+      "minecraft:paper"
+    ],
+    "B": [
+      "sylvis:cigarette_eight"
+    ]
+  },
+  "result": {
+    "id": "sylvis:cigarette_pack",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "###",
+    "GW "
+  ],
+  "key": {
+    "#": "minecraft:blue_wool",
+    "G": "minecraft:light_gray_wool",
+    "W": "minecraft:white_wool"
+  },
+  "result": {
+    "id": "sylvis:blue_whale",
+    "count": 1
+  }
+}

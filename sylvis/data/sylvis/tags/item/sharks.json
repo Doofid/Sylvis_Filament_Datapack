@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "sylvis:gray_shark",
+    "sylvis:blue_shark",
+
+    "sylvis:ace_shark",
+    "sylvis:agender_shark",
+    "sylvis:aro_shark",
+    "sylvis:aroace_shark",
+    "sylvis:bi_shark",
+    "sylvis:demiboy_shark",
+    "sylvis:demigirl_shark",
+    "sylvis:demi_r_shark",
+    "sylvis:demi_s_shark",
+    "sylvis:enby_shark",
+    "sylvis:gay_shark",
+    "sylvis:genderfluid_shark",
+    "sylvis:genderqueer_shark",
+    "sylvis:greyrose_shark",
+    "sylvis:grey_r_shark",
+    "sylvis:grey_s_shark",
+    "sylvis:intersex_shark",
+    "sylvis:lesbian_shark",
+    "sylvis:pan_shark",
+    "sylvis:poly_shark",
+    "sylvis:pride_shark",
+    "sylvis:trans_shark"
+  ]
+}

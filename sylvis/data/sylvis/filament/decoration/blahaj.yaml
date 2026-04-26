@@ -1,0 +1,34 @@
+id: 'sylvis:blahaj'
+translations:
+  en_us: Blahaj Testing
+  de_de: Der geliebte Ikea Hai Testing
+group: 'sylvis:blahajs'
+item_resource:
+  models:
+    default: sylvis:decorations/blahaj/blue_shark
+blockModelType: transparent_block
+properties:
+  stack_size: 1
+  lore:
+    - §7§oA cute Teddy to decorate your home.
+    - §9Made because why not (and for testing usecase)
+    - §9(DVD and Demi really wanted it)
+  placement:
+    wall: true
+    floor: true
+    ceiling: true
+  solid: false
+  scale: [2, 2, 2]
+  showBreakParticles: True
+  display: ground
+  
+# size: [0.7, 0.9]
+
+# block: minecraft:flower_pot
+blocks:
+  - origin: [0.0, 0.0, 0.0]
+    size: [1.0, 1.0, 1.0]
+  
+behaviour:
+  rotating:
+    smooth: true

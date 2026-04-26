@@ -1,0 +1,32 @@
+id: 'sylvis:jester_leggings'
+vanilla_item: 'minecraft:iron_leggings'
+group: 'sylvis:additions'
+translations:
+  en_us: Jester Leggings Skin
+  de_de: Narren Hose Skin
+item_tags: []
+item_resource:
+  parent: 'minecraft:item/generated'
+  textures:
+    default:
+      layer0: sylvis:item/jester_leggings
+properties:
+  stack_size: 1
+  durability: 240
+  lore:
+    - §7§oI guess you are a jester now
+    - §9Right-click on any leggings to apply.
+  fire_resistant: false
+  copy_components: false
+components:
+  filament:skin:
+    - minecraft:leather_leggings
+    - minecraft:iron_leggings
+    - minecraft:chainmail_leggings
+    - minecraft:golden_leggings
+    - minecraft:diamond_leggings
+    - minecraft:netherite_leggings
+
+  minecraft:equippable:
+    slot: legs
+    asset_id: sylvis:jester

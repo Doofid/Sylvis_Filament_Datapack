@@ -1,0 +1,33 @@
+id: 'sylvis:tobacco_seed'
+translations:
+  en_us: Tobacco Seed
+  de_de: Tabak Samen
+group: 'sylvis:additions'
+blockResource:
+  models:
+    age=0: sylvis:blocks/tobacco_stage0
+    age=1: sylvis:blocks/tobacco_stage1
+    age=2: sylvis:blocks/tobacco_stage2
+    age=3: sylvis:blocks/tobacco_stage3
+item_resource:
+  parent: 'minecraft:item/generated'
+  textures:
+    default:
+      layer0: sylvis:item/tobacco_seed
+properties:
+  blockBase: minecraft:sugar_cane
+  transparent: true
+  replaceable: false
+  destroyTime: 0
+  pushReaction: destroy
+  solid: false
+  collision: false
+  requiresTool: false
+  lootTable: sylvis:blocks/tobacco_seed
+blockModelType: tripwire_block
+behaviour:
+  crop:
+    maxAge: 4
+  can_survive:
+    blocks:
+    - minecraft:farmland

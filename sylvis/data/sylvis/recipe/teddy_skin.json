@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "sylvis:additions",
+  "category": "misc",
+  "ingredients": [
+    [
+      "minecraft:stick"
+    ],
+    [
+      "sylvis:teddy"
+    ]
+  ],
+  "result": {
+    "id": "sylvis:teddy_skin",
+    "count": 1
+  }
+}

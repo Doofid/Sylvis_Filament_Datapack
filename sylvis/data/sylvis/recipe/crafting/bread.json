@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OOO",
+    "OOO"
+  ],
+  "key": {
+    "O": "minecraft:orange_wool"
+  },
+  "result": {
+    "id": "sylvis:bread",
+    "count": 1
+  }
+}

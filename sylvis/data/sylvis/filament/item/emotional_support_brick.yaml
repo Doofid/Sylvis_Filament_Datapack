@@ -1,0 +1,21 @@
+id: 'sylvis:emotional_support_brick'
+translations:
+  en_us: Emotional support brick
+  de_de: Emotional unterstützender Stein
+vanilla_item: 'minecraft:brick'
+group: 'sylvis:additions'
+item_tags: []
+properties:
+    stack_size: 1
+    lore:
+    - §7§oYou feel a strange warmth and a sense of security coming
+    - §7§ofrom this brick. You feel like it'll keep you safe even in
+    - §7§oyour darkest times.
+    - §9Better hold on to it.
+    fire_resistant: true
+    copy_components: false
+components:
+    'minecraft:death_protection':
+        death_effects:
+            - type: 'minecraft:teleport_randomly'
+              diameter: 25

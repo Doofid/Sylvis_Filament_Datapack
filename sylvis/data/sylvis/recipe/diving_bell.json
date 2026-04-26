@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "AAA",
+    "A A",
+    "AAA"
+  ],
+  "key": {
+    "A": [
+      "minecraft:glass"
+    ]
+  },
+  "result": {
+    "id": "sylvis:diving_bell",
+    "count": 1
+  }
+}

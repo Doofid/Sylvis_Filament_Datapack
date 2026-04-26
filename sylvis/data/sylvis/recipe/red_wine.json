@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " A ",
+    " B "
+  ],
+  "key": {
+    "A": [
+      "minecraft:apple"
+    ],
+    "B": [
+      "minecraft:glass_bottle"
+    ]
+  },
+  "result": {
+    "id": "sylvis:red_wine",
+    "count": 1
+  },
+  "show_notification": true
+}

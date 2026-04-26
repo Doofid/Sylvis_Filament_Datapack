@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "sylvis:additions",
+  "category": "misc",
+  "ingredients": [
+    [
+      "minecraft:wheat_seeds"
+    ],
+    [
+      "minecraft:leaf_litter"
+    ]
+  ],
+  "result": {
+    "id": "sylvis:tobacco_seed",
+    "count": 1
+  }
+}

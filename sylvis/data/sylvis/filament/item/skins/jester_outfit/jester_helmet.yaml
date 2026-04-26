@@ -1,0 +1,32 @@
+id: 'sylvis:jester_helmet'
+vanilla_item: 'minecraft:iron_helmet'
+group: 'sylvis:additions'
+translations:
+  en_us: Jester Helmet Skin
+  de_de: Narren Helm Skin
+item_tags: []
+item_resource:
+  parent: 'minecraft:item/generated'
+  textures:
+    default:
+      layer0: sylvis:item/jester_helmet
+properties:
+  stack_size: 1
+  durability: 240
+  lore:
+    - §7§oI guess you are a jester now
+    - §9Right-click on any helmet to apply.
+  fire_resistant: false
+  copy_components: false
+components:
+  filament:skin:
+    - minecraft:leather_helmet
+    - minecraft:iron_helmet
+    - minecraft:chainmail_helmet
+    - minecraft:golden_helmet
+    - minecraft:diamond_helmet
+    - minecraft:netherite_helmet
+
+  minecraft:equippable:
+    slot: head
+    asset_id: sylvis:jester

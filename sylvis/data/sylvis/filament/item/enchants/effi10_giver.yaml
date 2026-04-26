@@ -1,0 +1,21 @@
+id: 'sylvis:efficiency_10_giver'
+vanilla_item: 'minecraft:purple_bundle'
+group: 'sylvis:additions'
+translations:
+  en_us: Mystery Box
+  de_de: Bestimmt keine Lootbox
+item_tags: []
+
+properties:
+  stack_size: 6
+  lore:
+    - §7§oA mystery box that will probably give u a nice gift.
+    - §9To open just use the item.
+  fire_resistant: true
+  copy_components: false
+
+behaviour:
+  item_interact_execute:
+    consumes: true
+    commands: 
+      - give @s enchanted_book[stored_enchantments={"efficiency":10}] 1

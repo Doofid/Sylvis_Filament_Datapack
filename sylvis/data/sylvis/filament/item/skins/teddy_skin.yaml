@@ -1,0 +1,30 @@
+id: 'sylvis:teddy_skin'
+vanilla_item: 'minecraft:totem_of_undying'
+translations:
+  en_us: Teddy Skin
+  de_de: Kuscheltier Skin
+group: 'sylvis:additions'
+item_tags: []
+item_resource:
+  models:
+    default: sylvis:decorations/teddy_head
+properties:
+  stack_size: 8
+  lore:
+    - §7§oA cute Teddy to put on a totem or
+    - §7§oon a helmet of any kind.
+    - §9Made as a thank you for Paroday
+    - §9for helping out financially in S1 of Sylvis.
+    - §9Right-click on helmet to apply.
+  fire_resistant: false
+  copy_components: false
+  
+components:
+    filament:skin:
+    - minecraft:totem_of_undying
+    - minecraft:leather_helmet
+    - minecraft:iron_helmet
+    - minecraft:chainmail_helmet
+    - minecraft:golden_helmet
+    - minecraft:diamond_helmet
+    - minecraft:netherite_helmet
