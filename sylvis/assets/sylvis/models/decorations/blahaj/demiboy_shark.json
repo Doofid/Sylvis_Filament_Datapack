@@ -1,5 +1,5 @@
 {
-  "parent": "sylvis:block/blue_shark",
+  "parent": "sylvis:decorations/blahaj/blue_shark",
   "textures": {
     "0": "sylvis:block/pride_sharks/demiboy"
   }

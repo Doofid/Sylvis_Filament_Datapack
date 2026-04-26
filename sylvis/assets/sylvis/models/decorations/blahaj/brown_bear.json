@@ -6,7 +6,7 @@
   ],
   "textures": {
     "0": "sylvis:block/brown_bear",
-    "particle": "sylvis:block/brown_bear"
+    "particle": "#0"
   },
   "elements": [
     {

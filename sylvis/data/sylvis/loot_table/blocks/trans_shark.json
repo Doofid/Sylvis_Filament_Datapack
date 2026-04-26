@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "blahaj:trans_shark"
+          "name": "sylvis:trans_shark"
         }
       ],
       "conditions": [
@@ -20,9 +20,6 @@
   "functions": [
     {
       "source": "block_entity",
-      "include": [
-        "blahaj:owner"
-      ],
       "function": "minecraft:copy_components"
 }
 ]

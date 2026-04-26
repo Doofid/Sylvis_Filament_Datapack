@@ -20,9 +20,6 @@
   "functions": [
         {
           "source": "block_entity",
-          "include": [
-            "sylvis:owner"
-          ],
           "function": "minecraft:copy_components"
     }
   ]
