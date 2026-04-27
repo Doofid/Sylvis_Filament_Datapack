@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "group": "plush_sharks",
-  "ingredient": "sylvis:genderqueer_shark",
-  "result": {
-    "id": "sylvis:pride_shark",
-    "count": 1
-  }
-}
