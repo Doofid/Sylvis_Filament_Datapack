@@ -1,6 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "group": "plush_sharks",
+  "group": "gray",
   "ingredient": "sylvis:gray_shark",
   "result": {
     "id": "sylvis:blue_shark",
