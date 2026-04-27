@@ -2,10 +2,11 @@
   "type": "minecraft:stonecutting",
   "group": "plush_sharks",
   "ingredient": {
+    "fabric:type": "fabric:any_tag",
     "tag": "sylvis:sharks"
   },
   "result": {
-    "count": 1,
-    "id": "sylvis:demiboy_shark"
+    "id": "sylvis:demiboy_shark",
+    "count": 1
   }
 }
