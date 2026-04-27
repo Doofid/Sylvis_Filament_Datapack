@@ -40,3 +40,5 @@ blocks:
 behaviour:
   rotating:
     smooth: true
+  interact_execute:
+    command: playsound sylvis:block.blahaj.cuddly_item.use.1
