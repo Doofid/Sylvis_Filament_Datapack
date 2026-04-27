@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": "sylvis:grey_s_shark",
-  "result": {
-    "id": "sylvis:blue_shark",
-    "count": 1
-  }
-}
