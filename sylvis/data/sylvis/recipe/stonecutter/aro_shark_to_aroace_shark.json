@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "plush_sharks",
+  "ingredient": "sylvis:aro_shark",
+  "result": {
+    "id": "sylvis:aroace_shark",
+    "count": 1
+  }
+}
