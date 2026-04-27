@@ -8,6 +8,14 @@ item_resource:
     default: sylvis:decorations/blahaj/grey_r_shark
 blockModelType: transparent_block
 properties:
+  sounds:
+    volume: 1.0
+    pitch: 1.0
+    hit: "sylvis:block.blahaj.cuddly_item.hit"
+    break: "sylvis:block.blahaj.cuddly_item.hit"
+    step: "sylvis:block.blahaj.cuddly_item.hit"
+    place: "sylvis:block.blahaj.cuddly_item.hit"
+    fall: "sylvis:block.blahaj.cuddly_item.hit" 
   stack_size: 1
   lore:
     - §7§oA cute Teddy to decorate your home.
@@ -25,5 +33,7 @@ blocks:
   - origin: [0.0, 0.0, 0.0]
     size: [1.0, 1.0, 1.0]
 behaviour:
+  interact_execute:
+    command: playsound sylvis:block.blahaj.cuddly_item.use.1
   rotating:
     smooth: true
