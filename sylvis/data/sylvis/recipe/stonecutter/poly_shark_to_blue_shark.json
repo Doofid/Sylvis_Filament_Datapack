@@ -1,6 +1,5 @@
 {
   "type": "minecraft:stonecutting",
-  "group": "poly",
   "ingredient": "sylvis:poly_shark",
   "result": {
     "id": "sylvis:blue_shark",

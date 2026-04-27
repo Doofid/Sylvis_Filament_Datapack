@@ -1,6 +1,5 @@
 {
   "type": "minecraft:stonecutting",
-  "group": "genderfluid",
   "ingredient": "sylvis:genderfluid_shark",
   "result": {
     "id": "sylvis:blue_shark",

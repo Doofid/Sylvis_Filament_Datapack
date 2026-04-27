@@ -1,6 +1,5 @@
 {
   "type": "minecraft:stonecutting",
-  "group": "agender",
   "ingredient": "sylvis:agender_shark",
   "result": {
     "id": "sylvis:blue_shark",

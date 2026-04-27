@@ -1,6 +1,5 @@
 {
   "type": "minecraft:stonecutting",
-  "group": "demi_s",
   "ingredient": "sylvis:demi_s_shark",
   "result": {
     "id": "sylvis:blue_shark",

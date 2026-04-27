@@ -1,6 +1,5 @@
 {
   "type": "minecraft:stonecutting",
-  "group": "greyrose",
   "ingredient": "sylvis:greyrose_shark",
   "result": {
     "id": "sylvis:blue_shark",

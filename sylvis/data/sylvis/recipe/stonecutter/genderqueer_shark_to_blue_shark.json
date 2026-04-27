@@ -1,6 +1,5 @@
 {
   "type": "minecraft:stonecutting",
-  "group": "genderqueer",
   "ingredient": "sylvis:genderqueer_shark",
   "result": {
     "id": "sylvis:blue_shark",

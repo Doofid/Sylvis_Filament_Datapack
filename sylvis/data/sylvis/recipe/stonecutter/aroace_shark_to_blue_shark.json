@@ -1,6 +1,5 @@
 {
   "type": "minecraft:stonecutting",
-  "group": "aroace",
   "ingredient": "sylvis:aroace_shark",
   "result": {
     "id": "sylvis:blue_shark",
