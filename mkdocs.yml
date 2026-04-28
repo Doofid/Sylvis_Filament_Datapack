@@ -23,8 +23,9 @@ theme:
 
 nav:
   - Home: index.md
-  - Testing: testing.md
-  - Tobacco: 
+  - Testing:
+    - Main Page: testing/main.md
+    - Testing Page: testing/testing.md
+    - Styleguide: testing/styleguide.md
+  - Tobacco:
     - Tobacco Main Page: tobacco/main.md
-    - Schwerter: items/swords.md
-    - Werkzeuge: items/tools.md
