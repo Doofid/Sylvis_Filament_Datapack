@@ -16,7 +16,7 @@ jobs:
       - uses: actions/setup-python@v4
         with:
           python-version: 3.x
-      - run: pip install mkdocs-material pymdown-extensions
+      - run: pip install mkdocs-material pymdown-extensions mkdocs-macros-plugin
       - run: |
           ls -R
           mkdocs gh-deploy --force --config-file mkdocs.yml

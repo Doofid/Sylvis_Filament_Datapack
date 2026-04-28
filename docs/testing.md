@@ -32,3 +32,16 @@
 
 
 --8<-- "includes/recipe_test.html"
+
+{{ crafting(
+    slots = [
+        "A", "A", "A",
+        " ", "B", " ",
+        " ", "B", " "
+    ],
+    ingredients = {
+        "A": {"name": "Wool", "img": "wool.png"},
+        "B": {"name": "Test", "img": "test.png"}
+    },
+    result = {"name": "Sword", "img": "sword.png"}
+) }}

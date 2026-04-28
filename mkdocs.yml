@@ -9,6 +9,10 @@ markdown_extensions:
   - attr_list
   - md_in_html
 
+plugins:
+  - search
+  - macros
+
 theme:
   name: material
   palette:
