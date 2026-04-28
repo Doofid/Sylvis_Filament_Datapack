@@ -5,7 +5,9 @@ extra_css:
 
 markdown_extensions:
   - pymdownx.snippets:
-    base_path: docs
+      base_path: docs
+  - attr_list
+  - md_in_html
 
 theme:
   name: material
