@@ -74,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#macro-rendering-error" class="md-skip">
+        <a href="#crafting-diamond-sword" class="md-skip">
           Skip to content
         </a>
       
@@ -316,8 +316,24 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
-        
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Testing Page
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -335,6 +351,45 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#crafting-diamond-sword" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Crafting: Diamond Sword
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#crafting-jester-hat" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Crafting: Jester Hat
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -475,8 +530,36 @@
   
   
   
-    
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#crafting-diamond-sword" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Crafting: Diamond Sword
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#crafting-jester-hat" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Crafting: Jester Hat
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -493,35 +576,147 @@
 
 
 
-<h1 id="macro-rendering-error"><em>Macro Rendering Error</em></h1>
-<p><em>File</em>: <code>testing/testing.md</code></p>
-<p><em>AttributeError</em>: Cannot find attribute 'base_url'</p>
-<pre><code>Traceback (most recent call last):
-  File &quot;/opt/hostedtoolcache/Python/3.14.4/x64/lib/python3.14/site-packages/super_collections/__init__.py&quot;, line 169, in __getattr__
-    return self[name]
-           ~~~~^^^^^^
-KeyError: 'base_url'
+  <h1>Testing Page</h1>
 
-During handling of the above exception, another exception occurred:
+<h3 id="crafting-diamond-sword">Crafting: Diamond Sword</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"></th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">Diamond</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">Diamond</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">Stick</td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="crafting-jester-hat">Crafting: Jester Hat</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Slot</th>
+<th style="text-align: center;">1</th>
+<th style="text-align: center;">2</th>
+<th style="text-align: center;">3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>A</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><img alt="Wool" src="assets/items/red_wool.png" /></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>B</strong></td>
+<td style="text-align: center;"><img alt="Wool" src="assets/items/red_wool.png" /></td>
+<td style="text-align: center;"><img alt="Gold" src="assets/items/gold_ingot.png" /></td>
+<td style="text-align: center;"><img alt="Wool" src="assets/items/red_wool.png" /></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>C</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Result:</strong> 1x <img alt="Jester Hat" src="assets/items/jester_hat.png" /> <strong>Jester Hat</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Testing Item</th>
+<th style="text-align: center;">Recipe usecase where</th>
+<th style="text-align: center;">extra information</th>
+<th style="text-align: right;">Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">wool</td>
+<td style="text-align: center;">wool</td>
+<td style="text-align: center;">test</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">test</td>
+<td style="text-align: center;">test</td>
+<td style="text-align: center;">wool</td>
+<td style="text-align: right;">sword</td>
+</tr>
+<tr>
+<td style="text-align: center;">wood</td>
+<td style="text-align: center;">test</td>
+<td style="text-align: center;">wood</td>
+<td style="text-align: right;"></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Testing Item</th>
+<th style="text-align: center;">Recipe usecase where</th>
+<th style="text-align: center;">extra information</th>
+<th style="text-align: right;">Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><img alt="wool" src="../../assets/items/wool.png" /></td>
+<td style="text-align: center;">wool</td>
+<td style="text-align: center;">test</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><img alt="test" src="../../assets/items/test.png" /></td>
+<td style="text-align: center;">test</td>
+<td style="text-align: center;">wool</td>
+<td style="text-align: right;"><img alt="sword" src="../../assets/items/sword.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">wood</td>
+<td style="text-align: center;">test</td>
+<td style="text-align: center;">wood</td>
+<td style="text-align: right;"></td>
+</tr>
+</tbody>
+</table>
+<div class="recipe-container" style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
+  <div class="mc-recipe">
+    <div class="mc-slot" data-item-name="Wool"><img src="../assets/items/wool.png"></div>
+    <div class="mc-slot" data-item-name="Test"><img src="../assets/items/test.png"></div>
+    <div class="mc-slot"><img src="../assets/items/SLOT3.png"></div>
+    <div class="mc-slot"><img src="../assets/items/SLOT4.png"></div>
+    <div class="mc-slot"><img src="../assets/items/SLOT5.png"></div>
+    <div class="mc-slot"><img src="../assets/items/SLOT6.png"></div>
+    <div class="mc-slot"><img src="../assets/items/SLOT7.png"></div>
+    <div class="mc-slot"><img src="../assets/items/SLOT8.png"></div>
+    <div class="mc-slot" data-item-name="Sword"><img src="../assets/items/sword.png"></div>
+  </div>
+  <span style="font-size: 24px;">➜</span>
+  <div class="mc-slot" style="width: 50px; height: 50px;">
+    <img src="../assets/items/RESULT.png" style="width: 40px; height: 40px;">
+  </div>
+</div>
 
-Traceback (most recent call last):
-  File &quot;/opt/hostedtoolcache/Python/3.14.4/x64/lib/python3.14/site-packages/mkdocs_macros/plugin.py&quot;, line 703, in render
-    return md_template.render(**page_variables)
-           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
-  File &quot;/opt/hostedtoolcache/Python/3.14.4/x64/lib/python3.14/site-packages/jinja2/environment.py&quot;, line 1295, in render
-    self.environment.handle_exception()
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
-  File &quot;/opt/hostedtoolcache/Python/3.14.4/x64/lib/python3.14/site-packages/jinja2/environment.py&quot;, line 942, in handle_exception
-    raise rewrite_traceback_stack(source=source)
-  File &quot;&lt;template&gt;&quot;, line 36, in top-level template code
-  File &quot;/home/runner/work/Sylvis_Filament_Datapack/Sylvis_Filament_Datapack/main.py&quot;, line 5, in crafting
-    base = env.variables.base_url
-           ^^^^^^^^^^^^^^^^^^^^^^
-  File &quot;/opt/hostedtoolcache/Python/3.14.4/x64/lib/python3.14/site-packages/super_collections/__init__.py&quot;, line 171, in __getattr__
-    raise AttributeError(ERR_MSG)
-AttributeError: Cannot find attribute 'base_url'
-
-</code></pre>
+<div class="recipe-container" style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;"><div class="mc-recipe"><div class="mc-slot" data-item-name="Wool"><img src="../../assets/items/wool.png" title="Wool"></div><div class="mc-slot" data-item-name="Wool"><img src="../../assets/items/wool.png" title="Wool"></div><div class="mc-slot" data-item-name="Wool"><img src="../../assets/items/wool.png" title="Wool"></div><div class="mc-slot"></div><div class="mc-slot" data-item-name="Test"><img src="../../assets/items/test.png" title="Test"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot" data-item-name="Test"><img src="../../assets/items/test.png" title="Test"></div><div class="mc-slot"></div></div><span style="font-size: 24px;">➜</span><div class="mc-slot" style="width: 60px; height: 60px;" data-item-name="Sword"><img src="../../assets/items/sword.png" style="width: 48px; height: 48px;"></div></div>
 
 
 
