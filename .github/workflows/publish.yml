@@ -2,7 +2,6 @@ name: publish wiki
 on:
   push:
     branches:
-      - main
       - feature/wiki
 permissions:
   contents: write
