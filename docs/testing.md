@@ -21,7 +21,7 @@
 | test | test | wool | sword |
 | wood | test | wood | |
 
-
+---
 
 | Testing Item | Recipe usecase where | extra information | Result |
 | :---: | :---: | :---: | ---: |
@@ -30,3 +30,5 @@
 | wood | test | wood | |
 
 
+
+--8<-- "includes/recipe_test.html"

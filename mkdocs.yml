@@ -1,9 +1,19 @@
 site_name: Sylvis Custom Item Wiki
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - pymdownx.snippets:
+    base_path: docs
+
 theme:
   name: material
   palette:
     scheme: slate
     primary: indigo
+  features:
+    - content.code.copy
 
 nav:
   - Home: index.md

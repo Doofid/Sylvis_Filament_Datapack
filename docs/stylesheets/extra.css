@@ -1,0 +1,28 @@
+/* Minecraft Grid Style */
+.mc-recipe {
+    display: inline-grid;
+    grid-template-columns: repeat(3, 40px);
+    grid-template-rows: repeat(3, 40px);
+    gap: 2px;
+    background-color: #8b8b8b; /* Minecraft Grau */
+    border: 2px solid #373737;
+    padding: 2px;
+}
+
+.mc-slot {
+    width: 40px;
+    height: 40px;
+    background-color: #c6c6c6;
+    border: 2px solid #ffffff;
+    border-right-color: #555555;
+    border-bottom-color: #555555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mc-slot img {
+    width: 32px;
+    height: 32px;
+    image-rendering: pixelated; /* Macht Texturen scharf! */
+}
