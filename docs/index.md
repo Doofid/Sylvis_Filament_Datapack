@@ -25,7 +25,7 @@ This datapack utilizes the Filament framework to add:
 
 Use the links below or the sidebar to navigate through the content:
 
-* [**Testing Page**](testing.md) - Testing Page for the Wiki.
+* [**Testing Page**](testing/main.md) - Testing Page for the Wiki.
 * [**Tobacco**](tobacco/main.md) - Everything around Tobacco and Cigarettes.
 
 ---
