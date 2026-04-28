@@ -14,6 +14,7 @@ To ensure the datapack functions correctly, follow these steps:
 ## Features
 
 This datapack utilizes the Filament framework to add:
+
 * **Custom Equipment**: Weapons and tools with modified attributes.
 * **Functional Items**: Items with unique triggers and behaviors.
 * **Optimized Performance**: Lightweight implementation for server environments.
