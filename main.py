@@ -1,24 +1,27 @@
 def define_env(env):
     @env.macro
     def crafting(slots, ingredients, result):
-        # 1. Pfad-Präfix berechnen
-        base = env.variables.base_url
+        # Wir holen uns die base_url direkt aus der MkDocs-Konfiguration
+        # Falls das nicht klappt, nutzen wir einen leeren String als Fallback
+        base = env.conf.get('site_url', '')
         
-        # Falls base ein Punkt ist oder leer, direkt assets ansteuern
-        if not base or base == ".":
-            prefix = ""
-        else:
-            # Sicherstellen, dass base mit einem Slash endet
-            prefix = base if base.endswith("/") else f"{base}/"
-            
+        # Sicherere Methode für relative Pfade in MkDocs:
+        # Wir nutzen die 'page'-Variable, um zu sehen, wo wir im Vergleich zum Root sind
+        page = env.variables.page
+        
+        # Berechne den Pfad zurück zum Root
+        # page.url ist z.B. 'tobacco/tobacco_main/'
+        # Wir zählen die Slashes, um zu wissen, wie viele Ebenen wir hoch müssen
+        url_parts = [p for p in page.url.split('/') if p]
+        levels = len(url_parts)
+        
+        prefix = "../" * levels
         img_base = f"{prefix}assets/items/"
 
         html = '<div class="recipe-container" style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">'
         html += '<div class="mc-recipe">'
         
-        # 2. Das 3x3 Gitter bauen
         for slot_key in slots:
-            # Entferne Leerzeichen, um " " wie "" zu behandeln
             key = slot_key.strip()
             html += '<div class="mc-slot"'
             
@@ -30,13 +33,13 @@ def define_env(env):
                 html += f' data-item-name="{name}">'
                 html += f'<img src="{img_base}{img}" title="{name}">'
             else:
-                html += '>' # Leerer Slot
+                html += '>' 
             html += '</div>'
             
-        html += '</div>' # Ende mc-recipe
+        html += '</div>'
         html += '<span style="font-size: 24px;">➜</span>'
         
-        # 3. Das Resultat bauen
+        # Resultat
         res_name = result.get("name", "Unknown Result")
         res_img = result.get("img", "test.png")
         
