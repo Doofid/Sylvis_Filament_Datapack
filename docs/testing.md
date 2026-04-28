@@ -15,6 +15,7 @@
 
 **Result:** 1x ![Jester Hat](assets/items/jester_hat.png) **Jester Hat**
 
-
-
+| wool | wool | test | | |
+| test | test | wool | | sword |
+| wood | test | wood | | |
 
