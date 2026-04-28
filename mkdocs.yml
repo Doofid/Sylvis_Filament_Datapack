@@ -24,8 +24,7 @@ theme:
 nav:
   - Home: index.md
   - Testing:
-    - Main Page: testing/main.md
+    - Main Page: testing/testing_main.md
     - Testing Page: testing/testing.md
     - Styleguide: testing/styleguide.md
-  - Tobacco:
-    - Tobacco Main Page: tobacco/main.md
+  - Tobacco: tobacco/testing_main.md
