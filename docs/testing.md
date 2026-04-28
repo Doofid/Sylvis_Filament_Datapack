@@ -15,9 +15,18 @@
 
 **Result:** 1x ![Jester Hat](assets/items/jester_hat.png) **Jester Hat**
 
-| Testing | Recipe | | Result |
+| Testing Item | Recipe usecase where | extra information | Result |
 | :---: | :---: | :---: | ---: |
 | wool | wool | test | |
 | test | test | wool | sword |
 | wood | test | wood | |
+
+
+
+| Testing Item | Recipe usecase where | extra information | Result |
+| :---: | :---: | :---: | ---: |
+| ![wool](assets/items/wool.png) | wool | test | |
+| ![test](assets/items/test.png) | test | wool | ![sword](assets/items/sword.png) |
+| wood | test | wood | |
+
 
