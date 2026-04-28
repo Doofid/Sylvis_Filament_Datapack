@@ -1,0 +1,9 @@
+site_name: Sylvis Custom Item Wiki
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Custom Items:
+    - Schwerter: items/swords.md
+    - Werkzeuge: items/tools.md
