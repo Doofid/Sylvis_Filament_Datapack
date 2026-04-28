@@ -25,8 +25,8 @@
 
 | Testing Item | Recipe usecase where | extra information | Result |
 | :---: | :---: | :---: | ---: |
-| ![wool](assets/items/wool.png) | wool | test | |
-| ![test](assets/items/test.png) | test | wool | ![sword](assets/items/sword.png) |
+| ![wool](../assets/items/wool.png) | wool | test | |
+| ![test](../assets/items/test.png) | test | wool | ![sword](../assets/items/sword.png) |
 | wood | test | wood | |
 
 
