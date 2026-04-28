@@ -19,6 +19,25 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.mc-slot:hover::after {
+    content: attr(data-item-name); /* Holt den Namen aus einem Custom-Attribut */
+    position: absolute;
+    bottom: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(16, 1, 16, 0.9); /* Minecraft Dunkellila */
+    color: #ffffff;
+    padding: 5px 10px;
+    border: 2px solid #2e0263;
+    border-radius: 2px;
+    white-space: nowrap;
+    z-index: 100;
+    font-family: 'Minecraft', sans-serif; /* Falls du eine Minecraft-Font eingebunden hast */
+    pointer-events: none;
 }
 
 .mc-slot img {
