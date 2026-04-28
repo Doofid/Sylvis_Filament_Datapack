@@ -19,7 +19,7 @@
     
     
       
-        <title>Tobacco and Cigarettes - Sylvis Custom Item Wiki</title>
+        <title>Macro Rendering Error - Sylvis Custom Item Wiki</title>
       
     
     
@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#tobacco-and-cigarettes" class="md-skip">
+        <a href="#macro-rendering-error" class="md-skip">
           Skip to content
         </a>
       
@@ -106,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Tobacco and Cigarettes
+              Macro Rendering Error
             
           </span>
         </div>
@@ -462,75 +462,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#tobacco" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Tobacco
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Tobacco">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#tobacco-seed" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Tobacco Seed
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#tobacco_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Tobacco
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#dried-tobacco" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Dried Tobacco
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#cigarettes" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Cigarettes
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -546,23 +477,35 @@
 
 
 
-<h1 id="tobacco-and-cigarettes">Tobacco and Cigarettes</h1>
-<h2 id="tobacco">Tobacco</h2>
-<p>Tobacco is the base ingredient for Cigarettes and has it's own creating process.
-First seed need to be made and grown, before the tobacco can be dried on a camp fire.</p>
-<h3 id="tobacco-seed">Tobacco Seed</h3>
-<p>The Tobacco Seeds can be crafted like this:</p>
-<div class="recipe-container" style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;"><div class="mc-recipe"><div class="mc-slot" data-item-name="Wheat Seeds"><img src="../assets/items/wheat_seeds.png" title="Wheat Seeds"></div><div class="mc-slot" data-item-name="Leaf Litter"><img src="../assets/items/leaf_litter.png" title="Leaf Litter"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div></div><span style="font-size: 24px;">➜</span><div class="mc-slot" style="width: 60px; height: 60px;" data-item-name="Tobacco Seed"><img src="../assets/items/tobacco_seed.png" style="width: 48px; height: 48px;"></div></div>
+<h1 id="macro-rendering-error"><em>Macro Rendering Error</em></h1>
+<p><em>File</em>: <code>tobacco/tobacco_main.md</code></p>
+<p><em>AttributeError</em>: Cannot find attribute 'base_url'</p>
+<pre><code>Traceback (most recent call last):
+  File &quot;/opt/hostedtoolcache/Python/3.14.4/x64/lib/python3.14/site-packages/super_collections/__init__.py&quot;, line 169, in __getattr__
+    return self[name]
+           ~~~~^^^^^^
+KeyError: 'base_url'
 
-<p>You can use the seeds just like normal seeds in minecraft.</p>
-<h3 id="tobacco_1">Tobacco</h3>
-<p>Tobacco is the direkt result of growing the tobacco seeds, they look like this:</p>
-<p><img alt="tobacco" src="assets/items/tobacco.png" /></p>
-<p>They have absolutly no other use than to make <a href="#dried-tobacco"><strong>Dried Tobacco</strong></a>.</p>
-<h3 id="dried-tobacco">Dried Tobacco</h3>
-<p>Can be made by putting the <a href="#tobacco-1">Tobacco</a> on the campfire and waiting for a minute until it is dried.</p>
-<p>See <a href="#cigarettes"><strong>Cigarettes</strong></a> for what it can be used for.</p>
-<h2 id="cigarettes">Cigarettes</h2>
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File &quot;/opt/hostedtoolcache/Python/3.14.4/x64/lib/python3.14/site-packages/mkdocs_macros/plugin.py&quot;, line 703, in render
+    return md_template.render(**page_variables)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File &quot;/opt/hostedtoolcache/Python/3.14.4/x64/lib/python3.14/site-packages/jinja2/environment.py&quot;, line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File &quot;/opt/hostedtoolcache/Python/3.14.4/x64/lib/python3.14/site-packages/jinja2/environment.py&quot;, line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File &quot;&lt;template&gt;&quot;, line 12, in top-level template code
+  File &quot;/home/runner/work/Sylvis_Filament_Datapack/Sylvis_Filament_Datapack/main.py&quot;, line 6, in crafting
+    base = env.variables.base_url
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/opt/hostedtoolcache/Python/3.14.4/x64/lib/python3.14/site-packages/super_collections/__init__.py&quot;, line 171, in __getattr__
+    raise AttributeError(ERR_MSG)
+AttributeError: Cannot find attribute 'base_url'
+
+</code></pre>
 
 
 
