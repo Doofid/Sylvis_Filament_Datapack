@@ -1,40 +1,28 @@
-import os
-
 def define_env(env):
     @env.macro
     def crafting(slots, ingredients, result):
-        # 1. Berechne den Pfad zum Root-Verzeichnis (docs/)
-        # env.variables.page.url gibt den Pfad der aktuellen Seite an
-        page_url = env.variables.page.url
-        depth = page_url.count('/')
-        if page_url.endswith('/'): # Falls die URL auf / endet, eine Ebene abziehen
-             depth -= 1
+        # 'base_url' ist eine MkDocs-Variable, die immer den 
+        # korrekten relativen Pfad zum Root-Ordner (docs/) enthält.
+        base = env.variables.base_url
         
-        # Erzeuge die passende Anzahl an "../"
-        root_path = "../" * depth if depth > 0 else ""
-        
-        # 2. Setze den Pfad zu den Items fest (ausgehend von docs/)
-        # Wenn deine Bilder in docs/assets/items liegen:
-        img_base = f"{root_path}assets/items/"
-        
-        # HTML zusammenbauen
-        html = '<div class="recipe-container" style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">'
+        # Falls base leer ist (auf der Startseite), brauchen wir keinen Slash
+        prefix = f"{base}/" if base else ""
+        img_base = f"{prefix}assets/items/"
+
+        html = '<div class="recipe-container" style="display: flex; align-items: center; gap: 20px;">'
         html += '<div class="mc-recipe">'
         
         for slot_key in slots:
             html += '<div class="mc-slot"'
-            
             if slot_key.strip() and slot_key in ingredients:
                 item = ingredients[slot_key]
                 html += f' data-item-name="{item["name"]}">'
                 html += f'<img src="{img_base}{item["img"]}" title="{item["name"]}">'
             else:
-                html += '>' 
-                
+                html += '>'
             html += '</div>'
             
-        html += '</div>' 
-        html += '<span style="font-size: 24px;">➜</span>'
+        html += '</div><span style="font-size: 24px;">➜</span>'
         
         # Resultat
         html += f'<div class="mc-slot" style="width: 60px; height: 60px;" data-item-name="{result["name"]}">'

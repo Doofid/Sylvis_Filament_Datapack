@@ -40,3 +40,9 @@ See [**Cigarettes**](#cigarettes) for what it can be used for.
 
 ## Cigarettes
 
+Cigarettes are the actuall usefull item, tobacco is only used to make the ciarettes.
+The item exists in multiple versions that have different abilities and desings.
+
+### Cigaretes Item
+
+This 
