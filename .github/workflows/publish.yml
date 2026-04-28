@@ -10,9 +10,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+          fetch-depth: 0
       - uses: actions/setup-python@v4
         with:
           python-version: 3.x
-      - run: ls -R
       - run: pip install mkdocs-material
-      - run: mkdocs gh-deploy --force
+      - run: |
+          ls -R
+          mkdocs gh-deploy --force --config-file mkdocs.yml
