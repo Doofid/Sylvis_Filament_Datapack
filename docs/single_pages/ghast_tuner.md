@@ -15,5 +15,5 @@
         "D": {"name": "Block of Redstone", "img": "Block_of_Redstone.png"},
         "E": {"name": "Block of Iron", "img": "Block_of_Iron.png"}
     },
-    result = {"name": "Red Wine", "img": "Red_wine.png"}
+    result = {"name": "Ghast Tuner V1", "img": "ghast_tuner_v1.png"}
 ) }}
