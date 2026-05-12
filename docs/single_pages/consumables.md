@@ -38,5 +38,5 @@ The Item probably will also not lose any durability and just be gone.
         "A": {"name": "Apple", "img": "apple.png"},
         "D": {"name": "Empty Glass Bottle", "img": "glass_bottle.png"}
     },
-    result = {"name": "Black Coffee", "img": "Black_coffee.png"}
+    result = {"name": "Red Wine", "img": "Red_wine.png"}
 ) }}
