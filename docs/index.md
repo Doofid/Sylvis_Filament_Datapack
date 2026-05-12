@@ -29,6 +29,7 @@ Use the links below or the sidebar to navigate through the content:
 * [**Tobacco and Cigarettes**](single_pages/tobacco.md) - Everything around Tobacco and Cigarettes.
 * [**Dasher**](single_pages/dasher.md) - Dasher Item.
 * [**Consumables**](single_pages/consumables.md) - Consumables.
+* [**Ghast Tuner**](single_pages/ghast_tuner.md) - Ghast Tuner.
 
 ---
 
