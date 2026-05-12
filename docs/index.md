@@ -33,3 +33,6 @@ Use the links below or the sidebar to navigate through the content:
 
 > **Note**: For administrative testing, use the command `/give @s filament:<item_id>` to obtain specific items manually.
 >           Or install the Filament Mod and use the creative menu normally.
+
+> **Note for everyone:** If you find inconsistencies, something that is wrong or just deprecated, please notify me (DVD - Anomynus) so it can be updated.
+> Same goes for spelling mistakes, I tend to make a lot of them.
