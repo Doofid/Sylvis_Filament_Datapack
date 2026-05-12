@@ -1,0 +1,30 @@
+id: 'sylvis:ghast_tuner_v1'
+vanilla_item: 'minecraft:coal'
+group: 'sylvis:additions'
+item_resource:
+  parent: 'minecraft:item/generated'
+  textures:
+    default:
+      layer0: sylvis:item/ghast_tuner_v1
+translations:
+  en_us: Ghast Tuner V1
+  de_de: Ghast Tuner V1
+item_tags: []
+behaviour:
+  item_interact_execute:
+    consumes: true
+    commands:
+      - 'execute as @p if entity @s[nbt=!{FallFlying:1b}] run velocity @s ^ ^ ^1.5'
+      - 'execute as @p if entity @s[nbt={FallFlying:1b}] run velocity @s ^ ^ ^1'
+    damages: false
+properties:
+  stack_size: 1
+  fire_resistant: false
+  copy_components: false
+  lore:
+    - §7§oFinally, better air travel!
+    - §9Right-click while on ghast to apply.
+    - §9Doubles airspeed.
+components:
+  'minecraft:use_cooldown':
+    seconds: 3
