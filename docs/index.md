@@ -30,6 +30,7 @@ Use the links below or the sidebar to navigate through the content:
 * [**Dasher**](single_pages/dasher.md) - Dasher Item.
 * [**Consumables**](single_pages/consumables.md) - Consumables.
 * [**Ghast Tuner**](single_pages/ghast_tuner.md) - Ghast Tuner.
+* [**Skins**](skins/skins_main.md) - Skins.
 
 ---
 

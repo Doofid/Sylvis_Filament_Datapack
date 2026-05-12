@@ -31,4 +31,6 @@ nav:
   - Dasher: single_pages/dasher.md
   - Consumables: single_pages/consumables.md
   - Ghast Tuner: single_pages/ghast_tuner.md
+  - Skins:
+    - Main Page: skins/skins_main.md
 
