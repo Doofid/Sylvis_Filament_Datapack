@@ -28,7 +28,7 @@ You can use the seeds just like normal seeds in minecraft.
 
 Tobacco is the direkt result of growing the tobacco seeds, they look like this: ![tobacco](../assets/items/tobacco.png)
 
-They have absolutly no other use than to make [**Dried Tobacco**](#dried-tobacco).
+They have absolutely no other use than to make [**Dried Tobacco**](#dried-tobacco).
 
 ### Dried Tobacco
 
@@ -40,12 +40,12 @@ See [**Cigarettes**](#cigarettes) for what it can be used for.
 
 ## Cigarettes
 
-Cigarettes are the actuall usefull item, tobacco is only used to make the ciarettes.
-The item exists in multiple versions that have different abilities and desings.
+Cigarettes are the actual useful item, tobacco is only used to make the cigarettes.
+The item exists in multiple versions that have different abilities and designs.
 
 ### Cigarettes Item
 
-This is the actuall Cigarette that can be crafted like this:
+This is the actual Cigarette that can be crafted like this:
 
 {{ crafting(
     slots = [
@@ -57,7 +57,7 @@ This is the actuall Cigarette that can be crafted like this:
         "A": {"name": "Paper", "img": "paper.png"},
         "B": {"name": "Dried Tobacco", "img": "dried_tobacco.png"}
     },
-    result = {"name": "Cigarette", "img": "cigarette.png"}
+    result = {"name": "Cigarette", "img": "Cigarette.png"}
 ) }}
 
 If the item is in the main or offhand it can be used by right-clicking and the cigarette will be smoked.
@@ -79,9 +79,9 @@ Crafting Recipe:
         "A", "A", " "
     ],
     ingredients = {
-        "A": {"name": "Cigarette", "img": "cigarette.png"}
+        "A": {"name": "Cigarette", "img": "Cigarette.png"}
     },
-    result = {"name": "8 Cigarettes", "img": "eight_cigarettes.png"}
+    result = {"name": "8 Cigarettes", "img": "8_Cigarettes.png"}
 ) }}
 
 ### Cigarette Pack
@@ -99,7 +99,7 @@ Crafting Recipe:
     ],
     ingredients = {
         "A": {"name": "Paper", "img": "paper.png"},
-        "B": {"name": "8 Cigarettes", "img": "eight_cigarettes.png"}
+        "B": {"name": "8 Cigarettes", "img": "8_Cigarettes.png"}
     },
-    result = {"name": "Cigarette Pack", "img": "cigarette_pack.png"}
+    result = {"name": "Cigarette Pack", "img": "Cigarette_Pack.png"}
 ) }}
