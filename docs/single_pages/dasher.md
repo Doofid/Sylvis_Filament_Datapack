@@ -24,3 +24,4 @@ The dasher also has infinit durability and can be destroyed by fire.
     result = {"name": "Dasher", "img": "dasher.png"}
 ) }}
 
+test
