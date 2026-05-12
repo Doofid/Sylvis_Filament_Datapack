@@ -21,7 +21,6 @@ The dasher also has infinit durability and can be destroyed by fire.
         "C": {"name": "Netherite Ingot", "img": "netherite_ingot.png"},
         "D": {"name": "Obsidian", "img": "obsidian.png"}
     },
-    result = {"name": "Dasher", "img": "dasher.png"}
+    result = {"name": "Dasher", "img": "wool.png"}
 ) }}
 
-test
