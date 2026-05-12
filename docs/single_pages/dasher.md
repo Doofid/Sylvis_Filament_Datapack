@@ -19,7 +19,7 @@ The dasher also has infinit durability and can be destroyed by fire.
         "A": {"name": "Amethyst Shard", "img": "amethyst_shard.png"},
         "B": {"name": "Echo Shard", "img": "echo_shard.png"},
         "C": {"name": "Netherite Ingot", "img": "netherite_ingot.png"},
-        "D": {"name": "Obsidian", "img": "obsidian.png"}
+        "D": {"name": "Obsidian", "img": "Obsidian.webp"}
     },
     result = {"name": "Tobacco Seed", "img": "tobacco_seed.png"}
 ) }}
