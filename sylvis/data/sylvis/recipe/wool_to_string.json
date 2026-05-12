@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "sylvis:additions",
+  "category": "misc",
+  "ingredients": [
+    [
+      "minecraft:wool"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:string",
+    "count": 4
+  }
+}
