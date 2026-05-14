@@ -11,7 +11,7 @@
     ingredients = {
         "A": {"name": "Glass", "img": "Glass.png"}
     },
-    result = {"name": "Cat Ears Low", "img": "Cat_Ears_Skin.png"}
+    result = {"name": "Diving Bell", "img": "Glass.png"}
 ) }}
 
 ## Can be put on
