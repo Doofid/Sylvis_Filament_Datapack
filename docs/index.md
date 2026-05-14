@@ -32,6 +32,7 @@ Use the links below or the sidebar to navigate through the content:
 * [**Ghast Tuner**](single_pages/ghast_tuner.md) - Ghast Tuner.
 * [**Skins**](skins/skins_main.md) - Skins.
 * [**Jester Outfit**](jester/jester_main.md) - Jester Outfit.
+* [**Teddy**](single_pages/teddy.md) - Teddy.
 
 ---
 

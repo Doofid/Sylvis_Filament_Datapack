@@ -19,9 +19,8 @@ Made for the one and only King - **King Goose of Pub²**.
     result = {"name": "Crown", "img": "Crown.png"}
 ) }}
 
-![Crown On Skin](../assets/items/CrownPerson.png)
-
 ## Can be put on
 
 * Helmets (all except turtle)
 
+![Crown On Skin](../assets/items/CrownPerson.png)

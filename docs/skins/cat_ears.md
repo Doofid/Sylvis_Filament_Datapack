@@ -50,3 +50,6 @@ So if you want to make the cat ears look correct on yourself, choose the correct
 * chainmail helmet
 * netherite helmet
 
+![Cat Ears Low](../assets/items/CatEars_Small.png)
+![Cat Ears High](../assets/items/CatEars_Big.png)
+

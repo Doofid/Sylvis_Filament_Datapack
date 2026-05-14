@@ -8,12 +8,6 @@ The Bakers Hat was created as a thank you for **Gem Co**, for helping out financ
 
 This Item is at the moment exclusive to Gem Co and can not be crafted.
 
-## Pictures
-
-![Bakers Hat](../assets/items/Bakers_Hat_Skin.png)
-
-![Bakers Hat Yama](../assets/items/BakersHat.png)
-
 ## Can be put on
 
 * leather helmet
@@ -22,4 +16,10 @@ This Item is at the moment exclusive to Gem Co and can not be crafted.
 * golden helmet
 * diamon helmet
 * netherite helmet
+
+## Pictures
+
+![Bakers Hat](../assets/items/Bakers_Hat_Skin.png)
+
+![Bakers Hat Yama](../assets/items/BakersHat.png)
 
