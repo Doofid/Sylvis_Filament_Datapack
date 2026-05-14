@@ -14,3 +14,9 @@
     },
     result = {"name": "Beer Skin", "img": "Beer_Skin.png"}
 ) }}
+
+## Can be put on
+
+* potion
+* brewery:drink_bottle
+

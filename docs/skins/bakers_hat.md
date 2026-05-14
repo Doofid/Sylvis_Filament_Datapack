@@ -14,3 +14,12 @@ This Item is at the moment exclusive to Gem Co and can not be crafted.
 
 ![Bakers Hat Yama](../assets/items/BakersHat.png)
 
+## Can be put on
+
+* leather helmet
+* iron helmet
+* chainmail helmet
+* golden helmet
+* diamon helmet
+* netherite helmet
+

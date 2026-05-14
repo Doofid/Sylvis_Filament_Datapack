@@ -7,4 +7,8 @@ Feel free to give me ideas.
 
 > **Note:** If you happen to see the item model, I know that it is broken, will fix it, when I also do the recipe.
 
+## Can be put on
+
+* potion
+* brewery:drink_potion
 

@@ -41,3 +41,12 @@ So if you want to make the cat ears look correct on yourself, choose the correct
     result = {"name": "Cat Ears Low", "img": "Cat_Ears_Skin.png"}
 ) }}
 
+## Can be put on
+
+* leather helmet
+* iron helmet
+* golden helmet
+* diamond helmet
+* chainmail helmet
+* netherite helmet
+

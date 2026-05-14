@@ -19,4 +19,8 @@ No mater what, if you want to be save just take the skin off before renaming or 
 
 ## Existing Skins
 * [Bakers Hat](bakers_hat.md)
+* [Beer](beer.md)
+* [Cat Ears](cat_ears.md)
+* [Diving Bell](diving_bell.md)
+* [Old Beer](old_beer.md)
 
