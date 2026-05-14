@@ -26,4 +26,5 @@ No mater what, if you want to be save just take the skin off before renaming or 
 * [Crown](crown.md)
 * [Jester](../jester/jester_main.md)
 * [Carved Pumpkin](pumpkin.md)
+* [Teddy (skin)](teddy.md)
 
