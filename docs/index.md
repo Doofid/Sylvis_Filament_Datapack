@@ -31,6 +31,7 @@ Use the links below or the sidebar to navigate through the content:
 * [**Consumables**](single_pages/consumables.md) - Consumables.
 * [**Ghast Tuner**](single_pages/ghast_tuner.md) - Ghast Tuner.
 * [**Skins**](skins/skins_main.md) - Skins.
+* [**Jester Outfit**](jester/jester_main.md) - Jester Outfit.
 
 ---
 
