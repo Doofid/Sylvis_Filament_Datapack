@@ -1,4 +1,4 @@
-# Sylvis Filament Wiki
+# Sylvis Custom Item Wiki
 
 Welcome to the official documentation for the Sylvis Filament Datapack. This wiki provides technical details, item specifications, and "installation guides".
 
