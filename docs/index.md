@@ -25,7 +25,6 @@ This datapack utilizes the Filament framework to add:
 
 Use the links below or the sidebar to navigate through the content:
 
-* [**Testing Page**](testing/testing_main.md) - Testing Page for the Wiki.
 * [**Tobacco and Cigarettes**](single_pages/tobacco.md) - Everything around Tobacco and Cigarettes.
 * [**Dasher**](single_pages/dasher.md) - Dasher Item.
 * [**Consumables**](single_pages/consumables.md) - Consumables.
@@ -41,3 +40,5 @@ Use the links below or the sidebar to navigate through the content:
 
 > **Note for everyone:** If you find inconsistencies, something that is wrong or just deprecated, please notify me (DVD - Anomynus) so it can be updated.
 > Same goes for spelling mistakes, I tend to make a lot of them.
+> If you have ideas for new items, skins or a recipe for items that don't have one, feel free to tell us your idea.
+

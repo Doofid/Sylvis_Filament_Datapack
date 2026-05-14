@@ -23,10 +23,6 @@ theme:
 
 nav:
   - Home: index.md
-  - Testing:
-    - Main Page: testing/testing_main.md
-    - Testing Page: testing/testing.md
-    - Styleguide: testing/styleguide.md
   - Tobacco: single_pages/tobacco.md
   - Dasher: single_pages/dasher.md
   - Consumables: single_pages/consumables.md
