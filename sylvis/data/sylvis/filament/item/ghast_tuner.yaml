@@ -14,8 +14,8 @@ behaviour:
   item_interact_execute:
     consumes: true
     commands:
-      - 'execute as @p if entity @s[nbt=!{FallFlying:1b}] run velocity @s ^ ^ ^1.5'
-      - 'execute as @p if entity @s[nbt={FallFlying:1b}] run velocity @s ^ ^ ^1'
+      - 'execute at @p unless entity @e[type=minecraft:happy_ghast,sort=nearest,limit=1,distance=..5] run give @p sylvis:ghast_tuner_v1'
+      - 'execute at @p as @e[type=minecraft:happy_ghast,distance=..5,limit=1] run attribute @s minecraft:flying_speed base set 0.08'
     damages: false
 properties:
   stack_size: 1
