@@ -23,4 +23,5 @@ No mater what, if you want to be save just take the skin off before renaming or 
 * [Cat Ears](cat_ears.md)
 * [Diving Bell](diving_bell.md)
 * [Old Beer](old_beer.md)
+* [Crown](crown.md)
 
