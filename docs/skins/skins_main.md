@@ -24,4 +24,6 @@ No mater what, if you want to be save just take the skin off before renaming or 
 * [Diving Bell](diving_bell.md)
 * [Old Beer](old_beer.md)
 * [Crown](crown.md)
+* [Jester](../jester/jester_main.md)
+* [Carved Pumpkin](pumpkin.md)
 
