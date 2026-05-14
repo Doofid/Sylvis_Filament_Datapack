@@ -1,0 +1,35 @@
+{
+  "description": {
+    "translate": "enchantment.minecraft.efficiency"
+  },
+  "supported_items": "#minecraft:enchantable/mining",
+  "primary_items": "#minecraft:enchantable/mining",
+  "weight": 10,
+  "max_level": 10,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 10
+  },
+  "max_cost": {
+    "base": 61,
+    "per_level_above_first": 10
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "id": "minecraft:efficiency",
+        "attribute": "minecraft:block_break_speed",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.0,
+          "per_level_above_first": 1.0
+        },
+        "operation": "add_value"
+      }
+    ]
+  }
+}
