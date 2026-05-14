@@ -45,4 +45,10 @@ nav:
     - Pumpkin Hat: skins/pumpkin.md
     - Teddy (skin): skins/teddy.md
   - Teddy: single_pages/teddy.md
+  - Blahajs:
+    - Main Page: blahaj/blahaj_main.md
+    - Blahaj: blahaj/blahaj.md
+    - Blue Whale: blahaj/blue_whale.md
+    - Bread: blahaj/bread.md
+    - Brown Bear: blahaj/brown_bear.md
 
