@@ -2,7 +2,7 @@
 
 ## Background
 
-The Teddy was made as a thank you for **Paroday** for helping out financially in season 1 if Sylvis.
+The Teddy was made as a thank you for **Paroday** for helping out financially in season 1 of Sylvis.
 
 ## Crafting
 
