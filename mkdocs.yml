@@ -41,4 +41,9 @@ nav:
     - Crown: skins/crown.md
   - Jester Outfit:
     - Main Page: jester/jester_main.md
+    - Hat: jester/hat.md
+    - Helmet: jester/helmet.md
+    - Chestplate: jester/chestplate.md
+    - Leggings: jester/leggings.md
+    - Boots: jester/boots.md
 
