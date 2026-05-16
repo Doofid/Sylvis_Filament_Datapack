@@ -1,0 +1,22 @@
+id: 'sylvis:abyss_core'
+translations:
+  en_us: Abyss Core
+  de_de: Abyss Kern
+group: 'sylvis:additions'
+item_resource:
+  models:
+    default: sylvis:decorations/abyss_core
+blockModelType: transparent_block
+properties:
+  stack_size: 1
+  lore:
+    - §7§oThe void from a world beyond.
+    - §9Valuable beyond measure.
+  placement:
+    wall: true
+    floor: true
+    ceiling: true
+  solid: false
+  scale: [2, 2, 2]
+  showBreakParticles: false
+  display: ground
