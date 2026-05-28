@@ -2,8 +2,8 @@
 	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "cherry_tea",
-		"particle": "cherry_tea"
+		"0": "sylvis:item/cherry_tea",
+		"particle": "sylvis:item/cherry_tea"
 	},
 	"elements": [
 		{
