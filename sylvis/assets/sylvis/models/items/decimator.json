@@ -4,8 +4,8 @@
 	"parent": "decimator",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "decimator",
-		"particle": "decimator"
+		"0": "sylvis:item/decimator",
+		"particle": "sylvis:item/decimator"
 	},
 	"elements": [
 		{
