@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "sylvis:additions",
+  "category": "misc",
+  "ingredients": [
+    [
+      "minecraft:glass_bottle"
+    ],
+    [
+      "minecraft:cherry_leaves"
+    ]
+  ],
+  "result": {
+    "id": "sylvis:cherry_tea",
+    "count": 1
+  }
+}
