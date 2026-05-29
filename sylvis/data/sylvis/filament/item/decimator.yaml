@@ -1,0 +1,44 @@
+id: 'sylvis:decimator'
+vanilla_item: 'minecraft:mace'
+group: 'sylvis:additions'
+translations:
+  en_us: Decimator
+  de_de: Zerstörer
+item_tags:
+  - 'minecraft:enchantable/sharp_weapon'
+  - 'minecraft:enchantable/mace'
+  - 'minecraft:enchantable/weapon'
+  - 'minecraft:enchantable/durability'
+  - 'minecraft:enchantable/melee_weapon'
+item_resource:
+  models:
+    default: sylvis:items/decimator
+behaviour:
+  item_interact_execute:
+    consumes: false
+    commands: 
+      - execute at @s run damage @a[distance=0.1..3,limit=5,sort=nearest] 6 minecraft:player_attack by @s
+  mace:
+    damage_multiplier: 4
+properties:
+  durability: 1001
+  stack_size: 1
+  fire_resistant: true
+  copy_components: true
+  lore:
+    - §7§oThe Decimator
+    - §9The better mace
+components:
+  'minecraft:weapon':
+    item_damage_per_attack: 1
+    disable_blocking_for_seconds: 5
+  'minecraft:enchantable':
+    value: 10
+  'minecraft:firework_explosion':
+    shape: small_ball
+    colors:
+      - 14687012
+      - 16146769
+    fade_colors: []
+    has_trail: false
+    has_twinkle: false
