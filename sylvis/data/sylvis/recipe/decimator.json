@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": [
+    "minecraft:mace"
+  ],
+  "addition": [
+    "minecraft:netherite_ingot"
+  ],
+  "template": [
+    "minecraft:tnt"
+  ],
+  "result": {
+    "id": "sylvis:decimator",
+    "count": 1
+  }
+}
