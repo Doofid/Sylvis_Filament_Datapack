@@ -18,3 +18,4 @@ properties:
 components:
     filament:skin:
     - minecraft:potion
+    - brewery:drink_bottle
