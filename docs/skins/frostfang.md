@@ -19,3 +19,5 @@
 
 * all swords
 
+![Frostfang in Hand](../assets/items/Frostfang_Player.png)
+
