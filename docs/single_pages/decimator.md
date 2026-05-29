@@ -8,7 +8,7 @@ It is still not done, but feel free to use it as it is at the moment.
 
 Can be "crafted" upgraded in the Smithing Table by using a mace, netherite ingot and a TNT Block.
 
-1[Decimator](../assets/items/Decimator.png)
+![Decimator](../assets/items/Decimator.png)
 
 ![Decimator Recipe](../assets/items/decimator_recipe.png)
 
