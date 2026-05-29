@@ -1,0 +1,27 @@
+id: 'sylvis:frostfang_skin'
+vanilla_item: 'minecraft:diamond_sword'
+group: 'sylvis:additions'
+translations:
+  en_us: Frostfang Skin
+  de_de: Frostfang Skin
+item_tags: []
+item_resource:
+  models:
+    default: sylvis:items/frostfang
+properties:
+  stack_size: 1
+  lore:
+    - §7§oTime to enjoy a nice cup of tea.
+    - §9Right-click on a sword to apply.
+  fire_resistant: false
+  copy_components: false
+components:
+    filament:skin:
+    - minecraft:diamond_sword
+    - minecraft:netherite_sword
+    - minecraft:golden_sword
+    - minecraft:iron_sword
+    - minecraft:copper_sword
+    - minecraft:stone_sword
+    - minecraft:wooden_sword
+

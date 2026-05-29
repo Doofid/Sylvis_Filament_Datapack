@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "sylvis:additions",
+  "category": "misc",
+  "ingredients": [
+    [
+      "minecraft:stick"
+    ],
+    [
+      "minecraft:diamond"
+    ]
+  ],
+  "result": {
+    "id": "sylvis:frostfang_skin",
+    "count": 1
+  }
+}

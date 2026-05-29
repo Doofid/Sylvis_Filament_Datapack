@@ -29,4 +29,5 @@ No mater what, if you want to be save just take the skin off before renaming or 
 * [Teddy (skin)](teddy.md)
 * [Cherry Tea](cherry_tea.md)
 * [Vodka](vodka.md)
+* [Frostfang](frostfang.md)
 
