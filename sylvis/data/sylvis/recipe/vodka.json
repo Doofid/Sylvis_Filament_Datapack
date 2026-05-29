@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "sylvis:additions",
+  "category": "misc",
+  "ingredients": [
+    [
+      "minecraft:glass_bottle"
+    ],
+    [
+      "minecraft:wheat"
+    ]
+  ],
+  "result": {
+    "id": "sylvis:vodka",
+    "count": 1
+  }
+}
