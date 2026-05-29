@@ -33,6 +33,7 @@ Use the links below or the sidebar to navigate through the content:
 * [**Jester Outfit**](jester/jester_main.md) - Jester Outfit.
 * [**Teddy**](single_pages/teddy.md) - Teddy.
 * [**Blahajs**](blahaj/blahaj_main.md) - Blahajs.
+* [**Decimator**](single_pages/decimator.md) - Decimator.
 
 ---
 
