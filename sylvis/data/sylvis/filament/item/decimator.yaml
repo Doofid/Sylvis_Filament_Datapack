@@ -14,11 +14,13 @@ item_resource:
   models:
     default: sylvis:items/decimator
 behaviour:
-  item_interact_execute:
+  item_attack_execute:
     consumes: false
-    commands: 
-      - execute at @s run damage @a[distance=0.1..3,limit=5,sort=nearest] 6 minecraft:player_attack by @s
-      - execute at @a[distance=0.1..3,limit=5,sort=nearest] as @s run particle minecraft:explosion ~ ~1 ~
+    onEntityAttack: true
+    commands:
+      - tellraw @s "Immerhin etwas"
+      - execute at @s run damage @e[distance=0.1..3,limit=5,sort=nearest,type=!minecraft:item] 6 minecraft:player_attack by @s
+      - execute at @e[distance=0.1..3,limit=5,sort=nearest,type=!minecraft:item] as @s run particle minecraft:explosion ~ ~1 ~
   mace:
     damage_multiplier: 4
 properties:
@@ -35,11 +37,3 @@ components:
     disable_blocking_for_seconds: 5
   'minecraft:enchantable':
     value: 10
-  'minecraft:firework_explosion':
-    shape: small_ball
-    colors:
-      - 14687012
-      - 16146769
-    fade_colors: []
-    has_trail: false
-    has_twinkle: false
