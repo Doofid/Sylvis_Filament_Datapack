@@ -1,0 +1,24 @@
+id: 'sylvis:horse_token'
+vanilla_item: 'minecraft:sunflower'
+group: 'sylvis:additions'
+translations:
+  en_us: Horsey Token
+  de_de: Neighsayer
+item_tags: []
+behaviour:
+  item_interact_execute:
+    consumes: false
+    commands:
+      - 'execute as @p run summon horse ~ ~ ~ {Tame:1b,Tags:["SBR"],equipment:{body:{id:"minecraft:leather_horse_armor",count:1,components:{"minecraft:dyed_color":1834762}},saddle:{id:"minecraft:saddle",count:1}}}'
+    damages: false
+properties:
+  stack_size: 1
+  fire_resistant: false
+  copy_components: false
+  lore:
+    - §7§oI love horsing around!
+    - §9Right-click to get horse
+    - §930s Cooldown
+components:
+  'minecraft:use_cooldown':
+    seconds: 30
