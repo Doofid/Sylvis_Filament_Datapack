@@ -1,0 +1,16 @@
+id: 'sylvis:compact_rotten_flesh'
+vanilla_item: 'minecraft:rotten_flesh'
+group: 'sylvis:additions'
+item_resource:
+  parent: 'minecraft:item/generated'
+  textures:
+    default:
+      layer0: sylvis:item/compact_rotten_flesh
+translations:
+  en_us: Compact rotten flesh
+  de_de: Kompaktes verrottes Fleisch
+item_tags: []
+properties:
+  stack_size: 64
+  fire_resistant: false
+  copy_components: true
