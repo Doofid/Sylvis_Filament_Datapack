@@ -1,0 +1,31 @@
+id: sylvis:mini_mushroom_mount
+translations:
+  en_us: Mini Mushroom Mount
+  de_de: Kleine Pilzhaufen
+group: sylvis:additions
+blockTags:
+  - minecraft:dirt
+blockResource:
+  models:
+    count=1,facing=north: sylvis:blocks/mini_mushroom_mount
+    count=1,facing=south: sylvis:blocks/mini_mushroom_mount
+    count=1,facing=east: sylvis:blocks/mini_mushroom_mount
+    count=1,facing=west: sylvis:blocks/mini_mushroom_mount
+itemResource:
+  models:
+    default: sylvis:blocks/mini_mushroom_mount
+blockModelType: bottom_slab
+properties:
+  blockBase: minecraft:red_mushroom
+  requiresTool: true
+  transparent: true
+  allowsSpawning: true
+  solid: false
+  pushReaction: destroy
+  # lootTable:
+behaviour:
+  count:
+    max: 1
+  horizontal_facing:
+
+
