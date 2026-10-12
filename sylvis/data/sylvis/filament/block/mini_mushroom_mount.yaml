@@ -7,25 +7,26 @@ blockTags:
   - minecraft:dirt
 blockResource:
   models:
-    count=1,facing=north: sylvis:blocks/mini_mushroom_mount
-    count=1,facing=south: sylvis:blocks/mini_mushroom_mount
-    count=1,facing=east: sylvis:blocks/mini_mushroom_mount
-    count=1,facing=west: sylvis:blocks/mini_mushroom_mount
+    facing=north: sylvis:blocks/mini_mushroom_mount
+    facing=east: sylvis:blocks/mini_mushroom_mount
+    facing=south: sylvis:blocks/mini_mushroom_mount
+    facing=west: sylvis:blocks/mini_mushroom_mount
 itemResource:
   models:
     default: sylvis:blocks/mini_mushroom_mount
-blockModelType: bottom_slab
+blockModelType: PLANT_BLOCK
 properties:
   blockBase: minecraft:red_mushroom
   requiresTool: true
-  transparent: true
   allowsSpawning: true
   solid: false
+  transparent: true
+  collision: false
   pushReaction: destroy
   # lootTable:
 behaviour:
-  count:
-    max: 1
+#  count:
+#    max: 1
   horizontal_facing:
-
+    {}
 
