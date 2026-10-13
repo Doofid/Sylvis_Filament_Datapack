@@ -21,7 +21,7 @@ properties:
   transparent: true
   collision: false
   pushReaction: destroy
-#  lootTable: sylvis:blocks/pebbles_pile
+  lootTable: sylvis:blocks/pebbles_pile
 behaviour:
   count:
     max: 4
