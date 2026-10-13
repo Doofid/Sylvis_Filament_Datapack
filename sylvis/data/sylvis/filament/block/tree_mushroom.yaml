@@ -12,7 +12,7 @@ blockResource:
 itemResource:
   models:
     default: sylvis:blocks/tree_mushroom_2
-blockModelType: TRANSPARENT_BLOCK
+blockModelType: TOP_SLAB
 properties:
   blockBase: minecraft:red_mushroom
   requiresTool: false
@@ -21,7 +21,7 @@ properties:
   transparent: true
   collision: false
   pushReaction: destroy
-#  lootTable: sylvis:blocks/mini_mushroom_mount
+  lootTable: sylvis:blocks/tree_mushroom
 behaviour:
   horizontal_facing:
     {}
