@@ -12,7 +12,7 @@ blockResource:
 itemResource:
   models:
     default: sylvis:blocks/pebbles_hand
-blockModelType: TRANSPARENT_BLOCK
+blockModelType: biome_plant_block
 properties:
   blockBase: minecraft:stone
   requiresTool: false

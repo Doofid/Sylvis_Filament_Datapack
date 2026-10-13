@@ -4,9 +4,9 @@ translations:
   de_de: Pilz am Baum
 group: sylvis:additions
 blockModelType: transparent_block
-blockResource:
-  models:
-    default: sylvis:blocks/tree_mushroom
+#blockResource:
+#  models:
+#    default: sylvis:blocks/tree_mushroom
 itemResource:
   models:
     default: sylvis:blocks/tree_mushroom
