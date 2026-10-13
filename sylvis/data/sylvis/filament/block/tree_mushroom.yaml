@@ -12,7 +12,7 @@ blockResource:
 itemResource:
   models:
     default: sylvis:blocks/tree_mushroom_2
-blockModelType: TOP_SLAB
+blockModelType: TRANSPARENT_BLOCK
 properties:
   blockBase: minecraft:red_mushroom
   requiresTool: false
