@@ -1,0 +1,29 @@
+id: sylvis:mini_mushroom_tree
+translations:
+  en_us: Mini Mushroom Tree
+  de_de: Kleiner Pilz am Baum
+group: sylvis:additions
+item_resource:
+  models:
+    default: sylvis:decorations/mini_mushroom_tree_floor
+    wall: sylvis:decorations/mini_mushroom_tree_wall
+    floor: sylvis:decorations/mini_mushroom_tree_floor
+blockModelType: transparent_block
+properties:
+  placement:
+    wall: true
+    floor: true
+    ceiling: false
+  solid: false
+  scale: [1, 1, 1]
+  showBreakParticles: false
+  display: ground
+
+#blocks:
+#  - origin: [0.0, 0.0, 0.0]
+#    size: [1.0, 1.0, 1.0]
+
+behaviour:
+  rotating:
+    smooth: false
+
