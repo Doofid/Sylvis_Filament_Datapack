@@ -5,13 +5,13 @@ translations:
 group: sylvis:additions
 blockResource:
   models:
-    facing=north: sylvis:blocks/tree_mushroom
-    facing=east: sylvis:blocks/tree_mushroom
-    facing=south: sylvis:blocks/tree_mushroom
-    facing=west: sylvis:blocks/tree_mushroom
+    facing=north: sylvis:blocks/tree_mushroom_2
+    facing=east: sylvis:blocks/tree_mushroom_1
+    facing=south: sylvis:blocks/tree_mushroom_4
+    facing=west: sylvis:blocks/tree_mushroom_3
 itemResource:
   models:
-    default: sylvis:blocks/tree_mushroom
+    default: sylvis:blocks/tree_mushroom_2
 blockModelType: TRANSPARENT_BLOCK
 properties:
   blockBase: minecraft:red_mushroom
