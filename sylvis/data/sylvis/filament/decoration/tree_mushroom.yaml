@@ -1,0 +1,22 @@
+id: sylvis:tree_mushroom
+translations:
+  en_us: Tree Mushroom
+  de_de: Pilz am Baum
+group: sylvis:additions
+blockModelType: transparent_block
+blockResource:
+  models:
+    default: sylvis:blocks/tree_mushroom
+itemResource:
+  models:
+    default: sylvis:blocks/pebbles_hand
+properties:
+  rotate: true
+  solid: false
+  blockBase: minecraft:red_mushroom
+  placement:
+    wall: true
+    floor: false
+    ceiling: false
+#  lootTable: sylvis:blocks/tree_mushroom
+
