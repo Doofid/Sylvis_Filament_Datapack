@@ -1,0 +1,28 @@
+id: sylvis:pebbles_pile
+translations:
+  en_us: Pebbles Pile
+  de_de: Bestimmt kein getrockneter haufen Scheiße
+group: sylvis:additions
+blockResource:
+  models:
+    count=4: sylvis:blocks/pebbles_pile_1
+    count=3: sylvis:blocks/pebbles_pile_2
+    count=2: sylvis:blocks/pebbles_pile_3
+    count=1: sylvis:blocks/pebbles_pile_4
+itemResource:
+  models:
+    default: sylvis:blocks/pebbles_hand
+blockModelType: PLANT_BLOCK
+properties:
+  blockBase: minecraft:stone
+  requiresTool: false
+  allowsSpawning: true
+  solid: false
+  transparent: true
+  collision: false
+  pushReaction: destroy
+  lootTable: sylvis:blocks/pebbles_pile
+behaviour:
+  count:
+    max: 4
+
