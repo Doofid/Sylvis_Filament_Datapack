@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "#sylvis:pebbles_block",
+  "result": {
+    "id": "sylvis:pebbles_pile",
+    "count": 8
+  }
+}
