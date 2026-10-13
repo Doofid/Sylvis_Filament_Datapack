@@ -11,12 +11,16 @@ itemResource:
   models:
     default: sylvis:blocks/tree_mushroom
 properties:
-  rotate: true
+  scale: [1, 1, 1]
   solid: false
   blockBase: minecraft:red_mushroom
+  showBreakParticles: false
+  display: ground
   placement:
     wall: true
     floor: false
     ceiling: false
 #  lootTable: sylvis:blocks/tree_mushroom
-
+behaviour:
+  rotating:
+    smooth: false
