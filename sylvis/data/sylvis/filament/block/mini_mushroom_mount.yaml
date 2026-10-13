@@ -3,8 +3,6 @@ translations:
   en_us: Mini Mushroom Mount
   de_de: Kleine Pilzhaufen
 group: sylvis:additions
-blockTags:
-  - minecraft:dirt
 blockResource:
   models:
     count=1: sylvis:blocks/mini_mushroom_mount_1
@@ -21,13 +19,13 @@ itemResource:
 blockModelType: PLANT_BLOCK
 properties:
   blockBase: minecraft:red_mushroom
-  requiresTool: true
+  requiresTool: false
   allowsSpawning: true
   solid: false
   transparent: true
   collision: false
   pushReaction: destroy
-  # lootTable:
+  lootTable: sylvis:blocks/mini_mushroom_mount
 behaviour:
   count:
     max: 4
