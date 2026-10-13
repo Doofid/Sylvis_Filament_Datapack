@@ -2,8 +2,8 @@
 	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "mini_mushroom_mount_quadrant",
-		"particle": "mini_mushroom_mount_quadrant"
+		"0": "sylvis:block/mini_mushroom_mount_quadrant",
+		"particle": "sylvis:block/mini_mushroom_mount_quadrant"
 	},
 	"elements": [
 		{
