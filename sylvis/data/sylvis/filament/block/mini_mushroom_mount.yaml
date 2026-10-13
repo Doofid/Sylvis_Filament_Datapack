@@ -16,7 +16,7 @@ blockResource:
 itemResource:
   models:
     default: sylvis:blocks/mini_mushroom_mount
-blockModelType: PLANT_BLOCK
+blockModelType: TRANSPARENT_BLOCK
 properties:
   blockBase: minecraft:red_mushroom
   requiresTool: false

@@ -1,0 +1,29 @@
+id: sylvis:mini_mushroom_mound
+translations:
+  en_us: Mini Mushroom Mound
+  de_de: Kleinerer Pilzhaufen
+group: sylvis:additions
+blockResource:
+  models:
+    count=1: sylvis:blocks/mini_mushroom_mound_4
+    count=2: sylvis:blocks/mini_mushroom_mound_3
+    count=3: sylvis:blocks/mini_mushroom_mound_2
+    count=4: sylvis:blocks/mini_mushroom_mound_1
+    count=5: sylvis:blocks/mini_mushroom_mound_0
+itemResource:
+  models:
+    default: sylvis:blocks/mini_mushroom_mount
+blockModelType: PLANT_BLOCK
+properties:
+  blockBase: minecraft:red_mushroom
+  requiresTool: false
+  allowsSpawning: true
+  solid: false
+  transparent: true
+  collision: false
+  pushReaction: destroy
+  lootTable: sylvis:blocks/mini_mushroom_mound
+behaviour:
+  count:
+    max: 5
+
