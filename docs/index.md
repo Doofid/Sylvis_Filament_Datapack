@@ -34,6 +34,7 @@ Use the links below or the sidebar to navigate through the content:
 * [**Teddy**](single_pages/teddy.md) - Teddy.
 * [**Blahajs**](blahaj/blahaj_main.md) - Blahajs.
 * [**Decimator**](single_pages/decimator.md) - Decimator.
+* [**Leather | Compact Rotten Flesh**](single_pages/leather.md) - Leather | Compact Rotten Flesh.
 
 ---
 
