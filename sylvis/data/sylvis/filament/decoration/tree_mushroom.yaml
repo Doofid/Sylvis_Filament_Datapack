@@ -9,7 +9,7 @@ blockResource:
     default: sylvis:blocks/tree_mushroom
 itemResource:
   models:
-    default: sylvis:blocks/pebbles_hand
+    default: sylvis:blocks/tree_mushroom
 properties:
   rotate: true
   solid: false
