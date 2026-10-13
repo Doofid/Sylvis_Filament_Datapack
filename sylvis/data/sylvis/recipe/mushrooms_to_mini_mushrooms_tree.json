@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "#sylvis:mushrooms",
+  "result": {
+    "id": "sylvis:mini_mushroom_tree",
+    "count": 1
+  }
+}
