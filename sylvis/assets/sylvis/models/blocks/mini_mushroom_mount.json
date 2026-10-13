@@ -2,8 +2,8 @@
 	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "sylvis:block/mini_mushroom_mount_quadrant",
-		"particle": "sylvis:block/mini_mushroom_mount_quadrant"
+		"0": "mini_mushroom_mount_quadrant",
+		"particle": "mini_mushroom_mount_quadrant"
 	},
 	"elements": [
 		{
@@ -106,17 +106,22 @@
 			"translation": [2.25, 3.25, 3.5],
 			"scale": [0.75, 0.75, 0.75]
 		},
+		"gui": {
+			"rotation": [40, 40, 0],
+			"translation": [7, 2.5, 0],
+			"scale": [1.25, 1.25, 1.25]
+		},
 		"head": {
 			"translation": [2.25, 12.5, 3.5],
 			"scale": [0.75, 0.75, 0.75]
 		},
 		"fixed": {
-			"translation": [3.75, 6.25, 4.5],
-			"scale": [0.75, 0.75, 0.75]
+			"rotation": [-90, 0, 0],
+			"translation": [4.25, 6.5, -9.5],
+			"scale": [1.5, 1.5, 1.5]
 		},
 		"on_shelf": {
-			"translation": [3.75, 6.25, 4.5],
-			"scale": [0.75, 0.75, 0.75]
+			"translation": [3.75, 6.25, 4.5]
 		}
 	},
 	"groups": [
