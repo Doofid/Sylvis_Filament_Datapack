@@ -35,6 +35,7 @@ Use the links below or the sidebar to navigate through the content:
 * [**Blahajs**](blahaj/blahaj_main.md) - Blahajs.
 * [**Decimator**](single_pages/decimator.md) - Decimator.
 * [**Leather | Compact Rotten Flesh**](single_pages/leather.md) - Leather | Compact Rotten Flesh.
+* [**Mini Mushroom Mount**](single_pages/miniMushroomMount.md) - Mini Mushroom Mount.
 
 ---
 
