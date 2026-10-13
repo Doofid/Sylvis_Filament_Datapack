@@ -7,10 +7,14 @@ blockTags:
   - minecraft:dirt
 blockResource:
   models:
-    facing=north: sylvis:blocks/mini_mushroom_mount
-    facing=east: sylvis:blocks/mini_mushroom_mount
-    facing=south: sylvis:blocks/mini_mushroom_mount
-    facing=west: sylvis:blocks/mini_mushroom_mount
+    count=1: sylvis:blocks/mini_mushroom_mount_1
+    count=2: sylvis:blocks/mini_mushroom_mount_2
+    count=3: sylvis:blocks/mini_mushroom_mount_3
+    count=4: sylvis:blocks/mini_mushroom_mount_4
+#    facing=north: sylvis:blocks/mini_mushroom_mount
+#    facing=east: sylvis:blocks/mini_mushroom_mount
+#    facing=south: sylvis:blocks/mini_mushroom_mount
+#    facing=west: sylvis:blocks/mini_mushroom_mount
 itemResource:
   models:
     default: sylvis:blocks/mini_mushroom_mount
@@ -25,8 +29,8 @@ properties:
   pushReaction: destroy
   # lootTable:
 behaviour:
-#  count:
-#    max: 1
-  horizontal_facing:
-    {}
+  count:
+    max: 4
+#  horizontal_facing:
+#    {}
 
